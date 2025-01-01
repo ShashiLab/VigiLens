@@ -2,7 +2,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
     <application
+        android:name=".VigiLens"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -10,17 +33,179 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VigiLens"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".feature.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/static_shortcuts" />
         </activity>
-    </application>
 
+
+        <activity
+            android:name=".feature.shortcut.front.FrontRecordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PlayCore.Transparent">
+        </activity>
+
+        <activity
+            android:name=".feature.shortcut.back.BackRecordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PlayCore.Transparent">
+        </activity>
+
+        <activity
+            android:name=".feature.shortcut.lockscreen.LockAndRecordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PlayCore.Transparent">
+        </activity>
+
+        <activity
+            android:name=".feature.shortcut.quick.QuickRecordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PlayCore.Transparent">
+        </activity>
+
+        <receiver
+            android:name=".feature.widget.quick.QuickRecordWidgetProvider"
+            android:exported="false"
+            android:label="@string/label_quick_record">
+            <intent-filter>
+                <action android:name="app.shashi.VigiLens.RECORDING_STARTED" />
+                <action android:name="app.shashi.VigiLens.RECORDING_STOPPED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="app.shashi.VigiLens.widget.TOGGLE_QUICK_RECORDING" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_quick_record_info" />
+        </receiver>
+
+        <receiver
+            android:name=".feature.widget.front.FrontRecordWidgetProvider"
+            android:exported="false"
+            android:label="@string/label_front_camera">
+            <intent-filter>
+                <action android:name="app.shashi.VigiLens.RECORDING_STARTED" />
+                <action android:name="app.shashi.VigiLens.RECORDING_STOPPED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="app.shashi.VigiLens.widget.TOGGLE_FRONT_RECORDING" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_front_record_info" />
+        </receiver>
+
+        <receiver
+            android:name=".feature.widget.lockscreen.LockAndRecordWidgetProvider"
+            android:exported="true"
+            android:label="@string/label_screen_off">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="app.shashi.VigiLens.widget.TOGGLE_LOCK_AND_RECORD" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_lock_and_record_info" />
+        </receiver>
+
+        <receiver
+            android:name=".feature.widget.back.BackRecordWidgetProvider"
+            android:exported="false"
+            android:label="@string/label_back_camera">
+            <intent-filter>
+                <action android:name="app.shashi.VigiLens.RECORDING_STARTED" />
+                <action android:name="app.shashi.VigiLens.RECORDING_STOPPED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="app.shashi.VigiLens.widget.TOGGLE_BACK_RECORDING" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_back_record_info" />
+        </receiver>
+
+
+        <receiver
+            android:name=".utils.broadcast.RecordingStopReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="app.shashi.VigiLens.RECORDING_STOPPED" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name=".utils.admin.DeviceAdminManager"
+            android:exported="false"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_receiver" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity android:name=".feature.settings.quickaccess.ShortcutsSettingsActivity" />
+        <activity android:name=".feature.security.SetPasswordActivity" />
+        <activity android:name=".feature.security.ResetPasswordActivity" />
+        <activity android:name=".feature.security.DisablePasswordActivity" />
+        <activity android:name=".core.permission.PermissionActivity" />
+        <activity android:name=".feature.gallery.ui.VideoPlayerActivity" />
+        <activity android:name=".support.FeedbackActivity" />
+        <activity android:name=".support.ReportBugActivity" />
+
+
+        <activity android:name=".about.AboutActivity" />
+
+        <service
+            android:name=".feature.recording.service.VideoRecordingService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="camera|microphone" />
+
+        <service
+            android:name=".feature.gallery.service.VideoSaveService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+
+        <activity
+            android:name=".feature.security.EnterPasswordActivity"
+            android:theme="@style/AppTheme" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1455311614075350~9875292534" />
+
+    </application>
 </manifest>

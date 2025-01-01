@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="400dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="400">
+
+    <!-- Background Pattern -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M0,0h1080v400h-1080z"/>
+
+    <!-- Abstract Shapes -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M-100,250c0,0 200,-150 500,-100s400,50 600,0s200,-100 200,-100v300h-1300V250z"/>
+
+    <path
+        android:fillColor="#4DB6AC"
+        android:pathData="M-100,300c0,0 300,-100 600,-50s500,50 700,0v150h-1300V300z"/>
+
+    <!-- Bug Icons Pattern -->
+    <group>
+        <path
+            android:fillColor="#26A69A"
+            android:pathData="M100,100m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+        <path
+            android:fillColor="#26A69A"
+            android:pathData="M100,140l0,-20M80,120l40,0M90,90l20,20M110,90l-20,20"/>
+    </group>
+
+    <group>
+        <path
+            android:fillColor="#26A69A"
+            android:pathData="M900,150m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"/>
+        <path
+            android:fillColor="#26A69A"
+            android:pathData="M900,180l0,-15M885,165l30,0M892,142l15,15M907,142l-15,15"/>
+    </group>
+
+    <!-- Code Lines Pattern -->
+    <path
+        android:strokeColor="#26A69A"
+        android:strokeWidth="2"
+        android:pathData="M200,50l100,0M200,70l60,0M200,90l80,0"/>
+
+    <path
+        android:strokeColor="#26A69A"
+        android:strokeWidth="2"
+        android:pathData="M800,80l100,0M800,100l60,0M800,120l80,0"/>
+</vector>

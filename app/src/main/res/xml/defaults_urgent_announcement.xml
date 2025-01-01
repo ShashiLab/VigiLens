@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<defaultsMap>
+    <entry>
+        <key>urgent_announcement_heading</key>
+        <value>Urgent Announcement</value>
+    </entry>
+    <entry>
+        <key>urgent_announcement_message</key>
+        <value>This is a default urgent message. Please pay attention!</value>
+    </entry>
+    <entry>
+        <key>urgent_announcement_show</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>urgent_announcement_closable</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>

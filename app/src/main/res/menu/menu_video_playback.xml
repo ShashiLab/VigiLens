@@ -1,0 +1,23 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_details"
+        android:title="@string/action_details"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rename"
+        android:title="@string/action_rename"
+        android:icon="@drawable/ic_rename"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/action_save_to_gallery"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>ad_unit_enabled</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>app_open_ad_unit_id</key>
+        <value>ca-app-pub-3940256099942544/9257395921</value> <!-- App Open Ad (Test ID) -->
+    </entry>
+    <entry>
+        <key>rewarded_ad_for_saving_video_to_gallery_ad_unit_id</key>
+        <value>ca-app-pub-3940256099942544/5224354917</value> <!-- Rewarded Ad (Test ID) -->
+    </entry>
+</defaultsMap>

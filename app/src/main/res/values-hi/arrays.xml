@@ -1,0 +1,96 @@
+<resources>
+    <!-- Displayed Camera options in the current language -->
+    <string-array name="camera_options">
+        <item>फ्रंट कैमरा</item>
+        <item>बैक कैमरा</item>
+    </string-array>
+
+    <!-- Saved Camera options (always in Snake Case) -->
+    <string-array name="camera_options_fixed">
+        <item>front_camera</item>
+        <item>back_camera</item>
+    </string-array>
+
+    <!-- Displayed Resolution options in the current language -->
+    <string-array name="video_quality_options">
+        <item>"उच्च (पूर्ण क्षमता)"</item>
+        <item>"1080p (पूर्ण HD)"</item>
+        <item>"720p (HD)"</item>
+        <item>"480p (SD)"</item>
+        <item>"360p"</item>
+        <item>"240p"</item>
+        <item>"144p"</item>
+    </string-array>
+
+    <!-- Saved Resolution options (always in Snake Case) -->
+    <string-array name="video_quality_options_fixed">
+        <item>high</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+
+
+    <!-- Displayed Recording Durations in the current language -->
+    <string-array name="recording_durations">
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>30 मिनट</item>
+        <item>60 मिनट</item>
+        <item>अनलिमिटेड</item>
+    </string-array>
+
+    <!-- Saved Recording Durations -->
+    <string-array name="recording_durations_fixed">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>unlimited</item>
+    </string-array>
+
+    <!-- Displayed Theme options (localized) -->
+    <string-array name="theme_options">
+        <item>लाइट</item>
+        <item>डार्क</item>
+        <item>सिस्टम डिफ़ॉल्ट</item>
+    </string-array>
+
+    <!-- Saved Theme options (always in Snake Case) -->
+    <string-array name="theme_options_fixed">
+        <item>light</item>
+        <item>dark</item>
+        <item>system_default</item>
+    </string-array>
+
+    <string-array name="file_size_units">
+        <item>बी</item>
+        <item>केबी</item>
+        <item>एमबी</item>
+        <item>जीबी</item>
+        <item>टीबी</item>
+    </string-array>
+
+    <string-array name="preview_size_options">
+        <item>अत्यंत छोटा</item>
+        <item>छोटा</item>
+        <item>मध्यम</item>
+        <item>बड़ा</item>
+        <item>अत्यंत बड़ा</item>
+    </string-array>
+
+    <string-array name="preview_size_options_fixed">
+        <item>extra_small</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>extra_large</item>
+    </string-array>
+
+
+</resources>

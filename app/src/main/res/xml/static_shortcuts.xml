@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="front_record"
+        android:enabled="true"
+        android:icon="@mipmap/ic_front_record"
+        android:shortcutShortLabel="@string/label_front_record"
+        android:shortcutLongLabel="@string/label_front_camera_long"
+        android:shortcutDisabledMessage="@string/message_front_record_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="app.shashi.VigiLens"
+            android:targetClass="app.shashi.VigiLens.feature.shortcut.front.FrontRecordActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="back_record"
+        android:enabled="true"
+        android:icon="@mipmap/ic_back_record"
+        android:shortcutShortLabel="@string/label_back_record"
+        android:shortcutLongLabel="@string/label_back_camera_long"
+        android:shortcutDisabledMessage="@string/message_back_record_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="app.shashi.VigiLens"
+            android:targetClass="app.shashi.VigiLens.feature.shortcut.back.BackRecordActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="quick_record"
+        android:enabled="true"
+        android:icon="@mipmap/ic_quick_record"
+        android:shortcutShortLabel="@string/label_quick_record"
+        android:shortcutLongLabel="@string/label_quick_record_long"
+        android:shortcutDisabledMessage="@string/message_quick_record_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="app.shashi.VigiLens"
+            android:targetClass="app.shashi.VigiLens.feature.shortcut.quick.QuickRecordActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="lock_record"
+        android:enabled="true"
+        android:icon="@mipmap/ic_screenoff"
+        android:shortcutShortLabel="@string/label_screen_off"
+        android:shortcutLongLabel="@string/label_lock_record_long"
+        android:shortcutDisabledMessage="@string/message_lock_record_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="app.shashi.VigiLens"
+            android:targetClass="app.shashi.VigiLens.feature.shortcut.lockscreen.LockAndRecordActivity" />
+    </shortcut>
+
+</shortcuts>

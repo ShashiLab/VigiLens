@@ -1,0 +1,312 @@
+<resources>
+
+    <!-- Labels -->
+    <string name="label_duration">المدة</string>
+    <string name="label_date">التاريخ</string>
+    <string name="label_name">الاسم</string>
+    <string name="label_path">المسار</string>
+    <string name="label_size">الحجم</string>
+    <string name="label_no_videos_found">ما فيش فيديوهات</string>
+    <string name="label_title">العنوان</string>
+    <string name="label_video_size">الحجم</string>
+    <string name="label_video_date">التاريخ</string>
+    <string name="label_back_camera">الكاميرا الخلفية</string>
+    <string name="label_timer">00:00</string>
+    <string name="label_unlimited">غير محدود</string>
+    <string name="label_system_default">افتراضي النظام</string>
+    <string name="label_front_camera">الكاميرا الأمامية</string>
+    <string name="label_last_modified">آخر تعديل</string>
+    <string name="label_camera_permission">إذن الكاميرا</string>
+    <string name="label_audio_permission">تسجيل الصوت</string>
+    <string name="label_notifications_permission">الإشعارات</string>
+    <string name="label_app_theme">ثيم التطبيق</string>
+    <string name="label_video_quality">جودة الفيديو</string>
+    <string name="label_recording_duration">مدة التسجيل</string>
+    <string name="label_show_preview">عرض المعاينة</string>
+    <string name="label_biometric_authentication">المصادقة البيومترية</string>
+    <string name="label_language">اللغة</string>
+    <string name="label_preview_size">حجم المعاينة</string>
+    <string name="label_minutes">دقائق</string>
+    <string name="label_shortcut_quick_record">تسجيل سريع</string>
+    <string name="label_screen_off">إيقاف الشاشة</string>
+    <string name="label_quick_record">تسجيل سريع</string>
+    <string name="label_shortcut_lock_and_record">قفل وتسجيل</string>
+    <string name="label_back_record">تسجيل خلفي</string>
+    <string name="label_front_record">تسجيل أمامي</string>
+    <string name="label_front_camera_long">بدء التسجيل بالكاميرا الأمامية</string>
+    <string name="label_back_camera_long">بدء التسجيل بالكاميرا الخلفية</string>
+    <string name="label_quick_record_long">بدء التسجيل بسرعة</string>
+    <string name="label_lock_record_long">التسجيل مع قفل الشاشة</string>
+    <string name="label_shortcuts">اختصارات</string>
+    <string name="label_version">الإصدار %s</string>
+    <string name="label_version_unknown">إصدار غير معروف</string>
+    <string name="label_website">الموقع الإلكتروني</string>
+    <string name="label_email">البريد الإلكتروني</string>
+    <string name="label_copyright">© 2024 جميع الحقوق محفوظة</string>
+    <string name="label_license">مرخص تحت GNU GPL v3.0</string>
+    <string name="label_watermark">Shashi.app</string>
+    <string name="label_rate_app">قيّم تطبيقنا</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_recording">جارٍ تسجيل الفيديو</string>
+    <string name="notification_title_recording_stopped">توقف التسجيل</string>
+    <string name="notification_text_recording_in_progress">التسجيل شغال…</string>
+    <string name="notification_title_saving_video">جارٍ حفظ الفيديو</string>
+    <string name="notification_text_saving_video">بيتم حفظ الفيديو في المعرض…</string>
+    <string name="notification_saving_video_progress">بيتم حفظ الفيديو في المعرض… %d%%</string>
+    <string name="notification_title_save_completed">اكتمل حفظ الفيديو</string>
+    <string name="notification_title_save_failed">فشل حفظ الفيديو</string>
+    <string name="notification_action_stop">إيقاف</string>
+    <string name="notification_text_recording_stopped_low_storage">التسجيل توقف بسبب نقص المساحة.</string>
+    <string name="notification_text_error_permission_denied">تم رفض الإذن</string>
+    <string name="notification_text_error_file_not_found">الملف مش موجود</string>
+    <string name="notification_text_error_unknown">حصل خطأ غير معروف</string>
+
+    <!-- Titles -->
+    <string name="title_record">سجل فيديو</string>
+    <string name="title_videos">معرض الفيديوهات</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="title_privacy_policy">سياسة الخصوصية</string>
+    <string name="title_terms_of_use">شروط الاستخدام</string>
+    <string name="title_rate_app">قيّم التطبيق</string>
+    <string name="title_save_failed">فشل الحفظ</string>
+    <string name="title_app_permission">أذونات التطبيق</string>
+    <string name="title_video_details">تفاصيل الفيديو</string>
+    <string name="title_delete_video">احذف الفيديو</string>
+    <string name="title_video_saved">الفيديو اتحفظ</string>
+    <string name="title_save_video">احفظ الفيديو</string>
+    <string name="title_no_videos_selected">مافيش فيديوهات محددة</string>
+    <string name="title_confirm_deletion">تأكيد الحذف</string>
+    <string name="title_no_videos">مافيش فيديوهات</string>
+    <string name="title_error">خطأ</string>
+    <string name="title_permission_denied">تم رفض الإذن</string>
+    <string name="title_biometric_prompt">افتح BG Video Recorder</string>
+    <string name="title_grant_permissions">محتاج مساعدة؟</string>
+    <string name="title_overlay_permission">إذن التراكب</string>
+    <string name="title_enter_new_password">اكتب كلمة السر الجديدة</string>
+    <string name="title_confirm_new_password">أكد كلمة السر الجديدة</string>
+    <string name="title_enter_pin_prompt">أدخل الرقم السري للتعطيل</string>
+    <string name="title_enter_password">أدخل كلمة السر</string>
+    <string name="title_enter_current_password">أدخل كلمة السر الحالية</string>
+    <string name="title_set_password">اضبط كلمة السر</string>
+    <string name="title_video_settings">إعدادات الفيديو</string>
+    <string name="title_app_settings">إعدادات التطبيق</string>
+    <string name="title_security_settings">إعدادات الأمان</string>
+    <string name="title_video_camera">كاميرا الفيديو</string>
+    <string name="title_lock_app">اقفل التطبيق</string>
+    <string name="title_share_video">شارك الفيديو</string>
+    <string name="title_rename_video">غيّر اسم الفيديو</string>
+    <string name="title_reset_password">اعد ضبط كلمة السر</string>
+    <string name="title_preview_settings">إعدادات المعاينة</string>
+    <string name="title_confirm_password">أكد كلمة السر</string>
+    <string name="title_video_saved_to_gallery">الفيديو اتحفظ في المعرض</string>
+    <string name="title_failed_to_save_video">فشل حفظ الفيديو</string>
+    <string name="title_error_not_enough_space">مافيش مساحة كافية</string>
+    <string name="title_video_name">اسم الفيديو</string>
+    <string name="title_app_feedback">ملاحظات التطبيق</string>
+    <string name="title_select_language">اختار اللغة</string>
+    <string name="title_select_theme">اختار الثيم</string>
+    <string name="title_select_camera">اختار الكاميرا</string>
+    <string name="title_select_resolution">اختار الدقة</string>
+    <string name="title_select_recording_duration">اختار مدة التسجيل</string>
+    <string name="title_select_preview_size">اختار حجم المعاينة</string>
+    <string name="title_shortcuts">اختصارات</string>
+    <string name="title_remove_shortcut">إزالة الاختصار</string>
+    <string name="title_about">حول</string>
+    <string name="title_welcome">مرحباً بك في VigiLens</string>
+    <string name="title_about_us">من نحن</string>
+    <string name="title_contact">اتصل بنا</string>
+    <string name="title_github_support">ادعم المصدر المفتوح!</string>
+    <string name="title_star_reason">لماذا تقيم مشروعنا؟</string>
+    <string name="title_report_bug">الإبلاغ عن خطأ</string>
+    <string name="title_feedback">آراء وتعليقات</string>
+    <string name="title_help">مساعدة</string>
+    <string name="title_thank_you">شكراً لك!</string>
+
+    <!-- Messages -->
+    <string name="message_help_dialog">عشان كل حاجة تمشي تمام، رجاءً اسمح بالأذونات المطلوبة. فعل المفاتيح وقبل الشروط عشان تكمل.</string>
+    <string name="message">رسالتك هنا</string>
+    <string name="message_give_permissions">احنا محتاجين شوية أذونات عشان كل حاجة تشتغل تمام. من فضلك اسمح بيهم تحت:</string>
+    <string name="message_permission_denied">الأذونات مطلوبة عشان التطبيق يشتغل. من فضلك فعلها في الإعدادات عشان تكمل.</string>
+    <string name="message_overlay_permission">محتاجين الإذن ده عشان نظهر معاينة الكاميرا أثناء التسجيل. من فضلك اسمح بيه عشان تستخدم ميزة المعاينة.</string>
+    <string name="message_video_not_available">عذراً، مش قادرين نشغل الفيديو لأن الملف مش متاح.</string>
+    <string name="message_no_videos">مافيش فيديوهات دلوقتي.</string>
+    <string name="message_no_videos_selected">من فضلك اختار فيديو واحد على الأقل للحذف.</string>
+    <string name="message_confirm_deletion">متأكد إنك عايز تحذف الفيديوهات المحددة؟</string>
+    <string name="message_conform_delete">متأكد إنك عايز تحذف الفيديو ده؟</string>
+    <string name="message_watch_ad_support_us">ادعمنا بمشاهدة إعلان وإحنا بنحفظ الفيديو في المعرض. شكراً!</string>
+    <string name="message_video_saved">الفيديو بتاعك اتحفظ في المعرض بنجاح!</string>
+    <string name="message_delete_confirmation">متأكد إنك عايز تحذف %1$s؟</string>
+    <string name="message_app_tagline">سجل فيديوهات بسرّية</string>
+    <string name="message_save_failed">للأسف، حصلت مشكلة أثناء حفظ الفيديو. حاول تاني من فضلك.</string>
+    <string name="message_permission_granted">تم منح الأذونات</string>
+    <string name="message_device_admin_explanation">لاستخدام هذه الميزة، يحتاج التطبيق إلى صلاحيات مدير الجهاز. الرجاء تفعيلها في إعدادات جهازك</string>
+    <string name="message_remove_shortcut">لا يمكن إزالة الاختصارات تلقائياً. الرجاء إزالة الاختصار يدوياً من شاشتك الرئيسية</string>
+    <string name="message_front_record_disabled">التسجيل الأمامي غير متاح</string>
+    <string name="message_back_record_disabled">التسجيل الخلفي غير متاح</string>
+    <string name="message_quick_record_disabled">التسجيل السريع غير متاح</string>
+    <string name="message_lock_record_disabled">تسجيل القفل غير متاح</string>
+    <string name="message_github_support">هل أعجبك التطبيق؟</string>
+    <string name="message_github_star">أظهر دعمك بوضع نجمة لمشروعنا على GitHub. يستغرق ثواني معدودة لكنه يعني الكثير بالنسبة لنا!</string>
+    <string name="message_star_benefits">• ساعد الآخرين في اكتشاف هذا التطبيق\n• ادعم البرامج المجانية ومفتوحة المصدر\n• حفزنا لإضافة المزيد من المميزات\n• انضم إلى مجتمعنا المتنامي</string>
+    <string name="message_about_intro">VigiLens (مسجل فيديو في الخلفية) هو تطبيق تسجيل فيديو احترافي مصمم لاحتياجات التوثيق المنفصلة. نحن نعطي الأولوية للخصوصية والكفاءة وتجربة المستخدم في كل جانب من جوانب تصميمنا</string>
+    <string name="message_about_privacy">مع التركيز على الموثوقية، يعمل VigiLens بشكل كامل دون اتصال ويخزن جميع التسجيلات محلياً على جهازك. لقد حسّنا التطبيق للتسجيل عالي الجودة مع الحفاظ على كفاءة استخدام البطارية وإدارة موارد النظام</string>
+    <string name="message_about_features">يقدم VigiLens ميزات أساسية للاستخدام المهني والأكاديمي، بما في ذلك إمكانية التسجيل في الخلفية، وتنفيذ التخزين الآمن، وعناصر التحكم في الوصول السريع القابلة للتخصيص. يحافظ التطبيق على وظائفه الكاملة حتى عند إيقاف تشغيل الشاشة لضمان التشغيل المنفصل</string>
+    <string name="message_about_opensource">كمشروع مفتوح المصدر، يحافظ VigiLens على الشفافية مع التحسين المستمر من خلال مساهمات المجتمع. يظل التزامنا متركزاً على توفير حل تسجيل قوي وآمن ويحترم الخصوصية</string>
+    <string name="message_about_team">تم تطويره وصيانته بواسطة فريق تطوير VigiLens</string>
+    <string name="message_thank_you">نقدر لك أخذ الوقت لتقديم التعليقات. مساهمتك تساعدنا في تحسين التطبيق للجميع</string>
+
+    <!-- Descriptions -->
+    <string name="description_start_recording">اضغط لبدء التسجيل</string>
+    <string name="description_switch_to_front_camera">حوّل للكاميرا الأمامية</string>
+    <string name="description_switch_to_back_camera">حوّل للكاميرا الخلفية</string>
+    <string name="description_video_view">واجهة مشغل الفيديو</string>
+    <string name="description_overflow_menu">قائمة الخيارات الإضافية</string>
+    <string name="description_scrollview">منطقة محتوى قابلة للتمرير</string>
+    <string name="description_stop_recording">اضغط لإيقاف التسجيل</string>
+    <string name="description_close">اضغط للإغلاق</string>
+    <string name="description_enable_biometric_authentication">شغّل أو قفل المصادقة البيومترية</string>
+    <string name="description_enable_password">شغّل أو قفل قفل التطبيق</string>
+    <string name="description_notifications_permission">التطبيق محتاج إذن لإرسال الإشعارات</string>
+    <string name="description_permission_camera">التطبيق محتاج يستخدم الكاميرا عشان يسجل فيديوهات</string>
+    <string name="description_permission_microphone">التطبيق محتاج يستخدم المايكروفون عشان يسجل الصوت</string>
+    <string name="description_enable_quick_record_shortcut">تفعيل اختصار التسجيل السريع</string>
+    <string name="description_icon_lock_and_record">اختصار القفل والتسجيل</string>
+    <string name="description_enable_shortcut_front_record">تفعيل اختصار التسجيل الأمامي</string>
+    <string name="description_icon_back_record">أيقونة التسجيل الخلفي</string>
+    <string name="description_enable_shortcut_lock_and_record">تفعيل اختصار القفل والتسجيل</string>
+    <string name="description_icon_quick_record">أيقونة التسجيل السريع</string>
+    <string name="description_icon_front_record">أيقونة التسجيل الأمامي</string>
+    <string name="description_enable_shortcut_back_record">تفعيل اختصار التسجيل الخلفي</string>
+    <string name="description_quick_record_feature">ابدأ أو أوقف التسجيل بنقرة واحدة</string>
+    <string name="description_lock_and_record_feature">أضف هذا الاختصار إلى شاشتك الرئيسية لقفل هاتفك وبدء التسجيل الصامت فوراً. سيتوقف التسجيل تلقائياً عند فتح الجهاز دون ظهور أي تطبيق في قائمة التطبيقات الحديثة.</string>
+    <string name="description_front_record_feature">ابدأ أو أوقف التسجيل باستخدام الكاميرا الأمامية بنقرة واحدة</string>
+    <string name="description_back_record_feature">ابدأ أو أوقف التسجيل باستخدام الكاميرا الخلفية بنقرة واحدة</string>
+    <string name="description_widget_lock_and_record">إطفاء الشاشة وبدء التسجيل</string>
+    <string name="description_widget_quick_record">بدء التسجيل السريع بنقرة واحدة</string>
+    <string name="description_widget_front_record">بدء التسجيل باستخدام الكاميرا الأمامية</string>
+    <string name="description_widget_back_record">بدء التسجيل باستخدام الكاميرا الخلفية</string>
+    <string name="description_github_logo">شعار GitHub</string>
+    <string name="description_version_info">معلومات الإصدار</string>
+    <string name="description_back_navigation">الرجوع للخلف</string>
+    <string name="description_app_icon">أيقونة التطبيق</string>
+    <string name="description_website_icon">أيقونة الموقع</string>
+    <string name="description_email_icon">أيقونة البريد الإلكتروني</string>
+    <string name="description_expand_collapse">توسيع أو طي</string>
+    <string name="description_feedback_header">صورة رأس التغذية الراجعة</string>
+
+    <!-- Toasts -->
+    <string name="toast_password_disabled_successfully">كلمة السر اتلغت.</string>
+    <string name="toast_incorrect_password">كلمة السر غلط. حاول تاني من فضلك.</string>
+    <string name="toast_authentication_failed">فشل في المصادقة. حاول تاني من فضلك.</string>
+    <string name="toast_password_reset_success">كلمة السر اتغيرت بنجاح.</string>
+    <string name="toast_passwords_do_not_match">كلمات السر مش متطابقة. حاول تاني من فضلك.</string>
+    <string name="toast_password_set_success">كلمة السر اتعينت بنجاح.</string>
+    <string name="toast_preference_saved">تم حفظ تفضيلاتك.</string>
+    <string name="toast_permissions_required">الأذونات مطلوبة عشان التطبيق يشتغل صح. من فضلك اسمح بالأذونات المطلوبة.</string>
+    <string name="toast_no_app_to_open_video">مافيش تطبيق يقدر يفتح الفيديو ده.</string>
+    <string name="toast_video_rename_success">اسم الفيديو بقى "%1$s".</string>
+    <string name="toast_set_app_lock_first">قفل التطبيق مش متفعل. من فضلك شغّله الأول.</string>
+    <string name="toast_video_rename_failed">فشل في تغيير اسم الفيديو.</string>
+    <string name="toast_video_rename_exists">في ملف اسمه "%1$s" موجود أصلاً.</string>
+    <string name="toast_video_deleted_success">الفيديو اتحذف بنجاح.</string>
+    <string name="toast_failed_to_delete_video">فشل في حذف "%1$s".</string>
+    <string name="toast_name_empty_error">الاسم ماينفعش يكون فاضي. من فضلك اكتب اسم صحيح.</string>
+    <string name="toast_no_email_clients">مافيش تطبيقات بريد إلكتروني متثبتة.</string>
+    <string name="toast_ad_not_available">مفيش إعلانات متاحة حالياً.</string>
+    <string name="toast_cannot_switch_camera_while_recording">ماينفعش تبدل الكاميرا أثناء التسجيل.</string>
+    <string name="toast_video_delete_failed">فشل في حذف الفيديو.</string>
+    <string name="toast_device_admin_permission_required">مطلوب إذن مسؤول الجهاز لتفعيل هذه الميزة. الرجاء منحه في الإعدادات.</string>
+    <string name="toast_shortcut_added">تمت إضافة الاختصار إلى الشاشة الرئيسية.</string>
+    <string name="toast_shortcut_not_supported">الاختصارات المثبتة غير مدعومة على هذا الجهاز.</string>
+    <string name="toast_shortcut_add_failed">فشلت إضافة الاختصار</string>
+    <string name="toast_device_admin_unavailable">إدارة سياسة الجهاز غير متوفرة.</string>
+    <string name="toast_account_locked">تم قفل الحساب. حاول مرة أخرى بعد %d ثانية</string>
+
+    <!-- Buttons -->
+    <string name="btn_ok">تمام</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_grant_permission">اسمح بالأذونات</string>
+    <string name="btn_rename">غيّر الاسم</string>
+    <string name="btn_continue">استمر</string>
+    <string name="btn_setting">الإعدادات</string>
+    <string name="btn_use_password">استخدم كلمة السر</string>
+    <string name="btn_confirm">تأكيد</string>
+    <string name="btn_star_github">ضع نجمة على GitHub ⭐</string>
+    <string name="btn_remind_later">ذكرني لاحقاً</string>
+    <string name="btn_view_source">عرض الكود المصدري</string>
+    <string name="btn_submit_bug">إرسال تقرير خطأ</string>
+    <string name="btn_submit_feedback">إرسال ملاحظات</string>
+
+
+    <!-- Actions -->
+    <string name="action_delete">احذف</string>
+    <string name="action_select_all">اختر الكل</string>
+    <string name="action_deselect_all">إلغاء تحديد الكل</string>
+    <string name="action_details">التفاصيل</string>
+    <string name="action_rename">غيّر الاسم</string>
+    <string name="action_save_to_gallery">احفظ في المعرض</string>
+    <string name="action_open_with">افتح بواسطة</string>
+    <string name="action_share">شارك</string>
+    <string name="action_help">مساعدة</string>
+
+
+    <!-- Prefs -->
+    <string name="prefs_main">الإعدادات الرئيسية</string>
+    <string name="prefs_lock">تسجيل القفل</string>
+    <string name="prefs_front">التسجيل الأمامي</string>
+    <string name="prefs_back">التسجيل الخلفي</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_new_name">أدخل اسم الفيديو الجديد</string>
+    <string name="hint_duration_minutes">أدخل المدة بالدقائق</string>
+    <string name="hint_bug_description">صف المشكلة</string>
+    <string name="hint_steps_to_reproduce">خطوات إعادة المشكلة</string>
+    <string name="hint_feedback">ملاحظاتك</string>
+    <string name="hint_suggestions">اقتراحات للتحسين</string>
+    <string name="hint_screenshot">التقط صورة للمشكلة وعد لإرفاقها</string>
+
+    <!-- Error Messages -->
+    <string name="error_url_open">تعذر فتح الرابط</string>
+    <string name="error_sending_email">تعذر إرسال البريد الإلكتروني</string>
+    <string name="error_invalid_number">رقم غير صالح</string>
+    <string name="error_description_required">يرجى تقديم وصف للمشكلة</string>
+    <string name="error_steps_required">يرجى تقديم خطوات إعادة المشكلة</string>
+    <string name="error_rating_required">يرجى تقديم تقييم</string>
+    <string name="error_feedback_required">يرجى إخبارنا عن تجربتك</string>
+
+    <!-- Others -->
+    <string name="email_feedback_prompt">يرجى تقديم ملاحظاتك أدناه:\n</string>
+    <string name="terms_privacy_agreement">أوافق على شروط الاستخدام وسياسة الخصوصية.</string>
+    <string name="email_subject">طلب دعم</string>
+    <string name="email_client_chooser">اختر تطبيق البريد الإلكتروني</string>
+
+    <!-- Input Field Hints -->
+    <string name="helper_feedback">شارك ما أعجبك أو لم يعجبك في التطبيق</string>
+    <string name="helper_suggestions">اختياري: شارك أفكارك حول كيفية تحسين التطبيق</string>
+    <string name="helper_bug_description">يرجى وصف المشكلة بالتفصيل</string>
+    <string name="helper_steps_to_reproduce">اذكر خطوات تكرار هذه المشكلة</string>
+
+    <!-- Rating Feedback Messages -->
+    <string name="rating_very_dissatisfied">غير راضٍ جداً</string>
+    <string name="rating_dissatisfied">غير راضٍ</string>
+    <string name="rating_neutral">محايد</string>
+    <string name="rating_satisfied">راضٍ</string>
+    <string name="rating_very_satisfied">راضٍ جداً</string>
+
+    <!-- newly added -->
+    <string name="choose_email_client">اختر تطبيق البريد الإلكتروني</string>
+    <string name="no_email_apps_found">لم يتم العثور على تطبيقات بريد إلكتروني</string>
+    <string name="bug_report_info">ساعدنا في التحسين بالإبلاغ عن أي مشكلات تواجهها. يرجى تقديم أكبر قدر ممكن من التفاصيل.</string>
+    <string name="attachments">المرفقات (اختياري)</string>
+    <string name="attach_screenshot">إرفاق لقطة شاشة</string>
+    <string name="take_screenshot">التقاط لقطة شاشة</string>
+    <string name="choose_from_gallery">اختر من المعرض</string>
+    <string name="screenshot_attached">تم إرفاق لقطة الشاشة</string>
+    <string name="screenshot_attached_success">تم إرفاق لقطة الشاشة بنجاح</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="rate_your_experience">كيف تقيم تجربتك؟</string>
+    <string name="new_badge">جديد</string>
+
+
+</resources>

@@ -1,0 +1,310 @@
+<resources>
+
+    <!-- Labels -->
+    <string name="label_duration">Dauer</string>
+    <string name="label_date">Datum</string>
+    <string name="label_name">Name</string>
+    <string name="label_path">Pfad</string>
+    <string name="label_size">Größe</string>
+    <string name="label_no_videos_found">Keine Videos gefunden</string>
+    <string name="label_title">Titel</string>
+    <string name="label_video_size">Größe</string>
+    <string name="label_video_date">Datum</string>
+    <string name="label_back_camera">Rückkamera</string>
+    <string name="label_timer">00:00</string>
+    <string name="label_unlimited">Unbegrenzt</string>
+    <string name="label_system_default">Systemstandard</string>
+    <string name="label_front_camera">Frontkamera</string>
+    <string name="label_last_modified">Zuletzt geändert</string>
+    <string name="label_camera_permission">Kamera</string>
+    <string name="label_audio_permission">Audioaufzeichnung</string>
+    <string name="label_notifications_permission">Benachrichtigungen</string>
+    <string name="label_app_theme">App-Design</string>
+    <string name="label_video_quality">Videoqualität</string>
+    <string name="label_recording_duration">Aufnahmedauer</string>
+    <string name="label_show_preview">Vorschau anzeigen</string>
+    <string name="label_biometric_authentication">Biometrische Authentifizierung</string>
+    <string name="label_language">Sprache</string>
+    <string name="label_preview_size">Vorschaugröße</string>
+    <string name="label_minutes">Minuten</string>
+    <string name="label_shortcut_quick_record">Schnellaufnahme</string>
+    <string name="label_screen_off">Bildschirm aus</string>
+    <string name="label_quick_record">Schnellaufnahme</string>
+    <string name="label_shortcut_lock_and_record">Sperren und Aufnehmen</string>
+    <string name="label_back_record">Rückkamera-Aufnahme</string>
+    <string name="label_front_record">Frontkamera-Aufnahme</string>
+    <string name="label_front_camera_long">Frontkamera-Aufnahme starten</string>
+    <string name="label_back_camera_long">Rückkamera-Aufnahme starten</string>
+    <string name="label_quick_record_long">Aufnahme schnell starten</string>
+    <string name="label_lock_record_long">Mit gesperrtem Bildschirm aufnehmen</string>
+    <string name="label_shortcuts">Verknüpfungen</string>
+    <string name="label_version">Version %s</string>
+    <string name="label_version_unknown">Unbekannte Version</string>
+    <string name="label_website">Webseite</string>
+    <string name="label_email">E-Mail</string>
+    <string name="label_copyright">© 2024 Alle Rechte vorbehalten</string>
+    <string name="label_license">Lizenziert unter GNU GPL v3.0</string>
+    <string name="label_watermark">Shashi.app</string>
+    <string name="label_rate_app">App bewerten</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_recording">Videoaufnahme</string>
+    <string name="notification_title_recording_stopped">Aufnahme gestoppt</string>
+    <string name="notification_text_recording_in_progress">Aufnahme läuft…</string>
+    <string name="notification_title_saving_video">Video wird gespeichert</string>
+    <string name="notification_text_saving_video">Video wird in der Galerie gespeichert…</string>
+    <string name="notification_saving_video_progress">Video wird in der Galerie gespeichert… %d%%</string>
+    <string name="notification_title_save_completed">Video speichern abgeschlossen</string>
+    <string name="notification_title_save_failed">Video speichern fehlgeschlagen</string>
+    <string name="notification_action_stop">Stopp</string>
+    <string name="notification_text_recording_stopped_low_storage">Aufnahme wegen wenig Speicher gestoppt.</string>
+    <string name="notification_text_error_permission_denied">Zugriff verweigert</string>
+    <string name="notification_text_error_file_not_found">Datei nicht gefunden</string>
+    <string name="notification_text_error_unknown">Ein unbekannter Fehler ist aufgetreten</string>
+
+    <!-- Titles -->
+    <string name="title_record">Video aufnehmen</string>
+    <string name="title_videos">Video-Galerie</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="title_privacy_policy">Datenschutzerklärung</string>
+    <string name="title_terms_of_use">Nutzungsbedingungen</string>
+    <string name="title_rate_app">App bewerten</string>
+    <string name="title_save_failed">Speichern fehlgeschlagen</string>
+    <string name="title_app_permission">App-Berechtigungen</string>
+    <string name="title_video_details">Videodetails</string>
+    <string name="title_delete_video">Video löschen</string>
+    <string name="title_video_saved">Video gespeichert</string>
+    <string name="title_save_video">Video speichern</string>
+    <string name="title_no_videos_selected">Keine Videos ausgewählt</string>
+    <string name="title_confirm_deletion">Löschen bestätigen</string>
+    <string name="title_no_videos">Keine Videos</string>
+    <string name="title_error">Fehler</string>
+    <string name="title_permission_denied">Zugriff verweigert</string>
+    <string name="title_biometric_prompt">BG Video Recorder entsperren</string>
+    <string name="title_grant_permissions">Brauchst du Hilfe?</string>
+    <string name="title_overlay_permission">Overlay-Berechtigung</string>
+    <string name="title_enter_new_password">Neues Passwort eingeben</string>
+    <string name="title_confirm_new_password">Neues Passwort bestätigen</string>
+    <string name="title_enter_pin_prompt">PIN eingeben zum Deaktivieren</string>
+    <string name="title_enter_password">Passwort eingeben</string>
+    <string name="title_enter_current_password">Aktuelles Passwort eingeben</string>
+    <string name="title_set_password">Passwort festlegen</string>
+    <string name="title_video_settings">Videoeinstellungen</string>
+    <string name="title_app_settings">App-Einstellungen</string>
+    <string name="title_security_settings">Sicherheitseinstellungen</string>
+    <string name="title_video_camera">Videokamera</string>
+    <string name="title_lock_app">App sperren</string>
+    <string name="title_share_video">Video teilen</string>
+    <string name="title_rename_video">Video umbenennen</string>
+    <string name="title_reset_password">Passwort zurücksetzen</string>
+    <string name="title_preview_settings">Vorschau-Einstellungen</string>
+    <string name="title_confirm_password">Passwort bestätigen</string>
+    <string name="title_video_saved_to_gallery">Video in Galerie gespeichert</string>
+    <string name="title_failed_to_save_video">Video konnte nicht gespeichert werden</string>
+    <string name="title_error_not_enough_space">Nicht genügend Speicherplatz</string>
+    <string name="title_video_name">Videoname</string>
+    <string name="title_app_feedback">App-Feedback</string>
+    <string name="title_select_language">Sprache auswählen</string>
+    <string name="title_select_theme">Design auswählen</string>
+    <string name="title_select_camera">Kamera auswählen</string>
+    <string name="title_select_resolution">Auflösung auswählen</string>
+    <string name="title_select_recording_duration">Aufnahmedauer wählen</string>
+    <string name="title_select_preview_size">Vorschaugröße wählen</string>
+    <string name="title_shortcuts">Verknüpfungen</string>
+    <string name="title_remove_shortcut">Verknüpfung entfernen</string>
+    <string name="title_about">Über</string>
+    <string name="title_welcome">Willkommen bei VigiLens</string>
+    <string name="title_about_us">Über uns</string>
+    <string name="title_contact">Kontakt</string>
+    <string name="title_github_support">Unterstütze Open Source!</string>
+    <string name="title_star_reason">Warum unser Projekt bewerten?</string>
+    <string name="title_report_bug">Fehler melden</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_help">Hilfe</string>
+    <string name="title_thank_you">Vielen Dank!</string>
+
+    <!-- Messages -->
+    <string name="message_help_dialog">Damit alles glatt läuft, erteile bitte die nötigen Berechtigungen. Aktiviere einfach die Schalter und akzeptiere die Bedingungen, um fortzufahren.</string>
+    <string name="message">Deine Nachricht hier</string>
+    <string name="message_give_permissions">Wir brauchen ein paar Berechtigungen, damit alles reibungslos funktioniert. Bitte erteile sie unten:</string>
+    <string name="message_permission_denied">Berechtigungen sind nötig, damit die App funktioniert. Bitte aktiviere sie in den Einstellungen, um weiterzumachen.</string>
+    <string name="message_overlay_permission">Wir brauchen diese Berechtigung, um die Kameravorschau während der Aufnahme anzuzeigen. Bitte erlaube sie, um die Vorschau zu nutzen.</string>
+    <string name="message_video_not_available">Sorry, das Video kann nicht abgespielt werden, weil die Datei nicht verfügbar ist.</string>
+    <string name="message_no_videos">Zurzeit sind keine Videos verfügbar.</string>
+    <string name="message_no_videos_selected">Bitte wähle mindestens ein Video zum Löschen aus.</string>
+    <string name="message_confirm_deletion">Bist du sicher, dass du die ausgewählten Videos löschen möchtest?</string>
+    <string name="message_conform_delete">Bist du sicher, dass du dieses Video löschen möchtest?</string>
+    <string name="message_watch_ad_support_us">Unterstütze uns, indem du eine Werbung anschaust, während wir dein Video in die Galerie speichern. Danke!</string>
+    <string name="message_video_saved">Dein Video wurde erfolgreich in der Galerie gespeichert!</string>
+    <string name="message_delete_confirmation">Möchtest du %1$s wirklich löschen?</string>
+    <string name="message_app_tagline">Videos unauffällig aufnehmen</string>
+    <string name="message_save_failed">Oh nein, beim Speichern deines Videos ist etwas schiefgelaufen. Bitte versuch es nochmal.</string>
+    <string name="message_permission_granted">Berechtigungen erteilt</string>
+    <string name="message_device_admin_explanation">Für diese Funktion benötigt die App Geräteadministrator-Berechtigungen. Bitte aktivieren Sie diese in Ihren Geräteeinstellungen</string>
+    <string name="message_remove_shortcut">Verknüpfungen können nicht automatisch entfernt werden. Bitte entfernen Sie die Verknüpfung manuell von Ihrem Startbildschirm</string>
+    <string name="message_front_record_disabled">Frontaufnahme nicht verfügbar</string>
+    <string name="message_back_record_disabled">Rückaufnahme nicht verfügbar</string>
+    <string name="message_quick_record_disabled">Schnellaufnahme nicht verfügbar</string>
+    <string name="message_lock_record_disabled">Sperraufnahme nicht verfügbar</string>
+    <string name="message_github_support">Gefällt dir die App?</string>
+    <string name="message_github_star">Zeige deine Unterstützung, indem du unserem Projekt auf GitHub einen Stern gibst. Es dauert nur wenige Sekunden, bedeutet uns aber sehr viel!</string>
+    <string name="message_star_benefits">• Hilf anderen, diese App zu entdecken\n• Unterstütze freie und Open-Source-Software\n• Motiviere uns, weitere Funktionen hinzuzufügen\n• Werde Teil unserer wachsenden Community</string>
+    <string name="message_about_intro">VigiLens (Hintergrund-Videorecorder) ist eine professionelle Videoaufnahme-Anwendung für diskrete Dokumentationszwecke. Wir priorisieren Privatsphäre, Effizienz und Benutzererfahrung in jedem Aspekt unseres Designs</string>
+    <string name="message_about_privacy">Mit Fokus auf Zuverlässigkeit arbeitet VigiLens komplett offline und speichert alle Aufnahmen lokal auf Ihrem Gerät. Wir haben die App für hochwertige HD-Aufnahmen optimiert und achten dabei auf effizienten Akkuverbrauch und Systemressourcen</string>
+    <string name="message_about_features">VigiLens bietet wichtige Funktionen für professionelle und akademische Nutzung, einschließlich Hintergrundaufnahme, sichere Speicherung und anpassbare Schnellzugriffsteuerung. Die App behält ihre volle Funktionalität auch bei ausgeschaltetem Bildschirm für diskreten Betrieb</string>
+    <string name="message_about_opensource">Als Open-Source-Projekt bewahrt VigiLens Transparenz und verbessert sich kontinuierlich durch Community-Beiträge. Unser Engagement bleibt darauf fokussiert, eine robuste, sichere und die Privatsphäre respektierende Aufnahmelösung anzubieten</string>
+    <string name="message_about_team">Entwickelt und betreut vom VigiLens-Entwicklungsteam</string>
+    <string name="message_thank_you">Wir danken dir für deine Zeit und dein Feedback. Dein Beitrag hilft uns, die App für alle zu verbessern</string>
+
+
+    <!-- Descriptions -->
+    <string name="description_start_recording">Tippe, um die Aufnahme zu starten</string>
+    <string name="description_switch_to_front_camera">Zur Frontkamera wechseln</string>
+    <string name="description_switch_to_back_camera">Zur Rückkamera wechseln</string>
+    <string name="description_video_view">Videoplayer-Oberfläche</string>
+    <string name="description_overflow_menu">Menü für mehr Optionen</string>
+    <string name="description_scrollview">Scrollbarer Inhaltsbereich</string>
+    <string name="description_stop_recording">Tippe, um die Aufnahme zu stoppen</string>
+    <string name="description_close">Tippe zum Schließen</string>
+    <string name="description_enable_biometric_authentication">Biometrische Authentifizierung ein- oder ausschalten</string>
+    <string name="description_enable_password">App-Sperre ein- oder ausschalten</string>
+    <string name="description_notifications_permission">Diese App möchte dir Benachrichtigungen senden</string>
+    <string name="description_permission_camera">Diese App benötigt Zugriff auf deine Kamera, um Videos aufzunehmen</string>
+    <string name="description_permission_microphone">Diese App benötigt Zugriff auf dein Mikrofon, um Audio aufzunehmen</string>
+    <string name="description_enable_quick_record_shortcut">Schnellaufnahme-Verknüpfung aktivieren</string>
+    <string name="description_icon_lock_and_record">Sperren und Aufnehmen-Verknüpfung</string>
+    <string name="description_enable_shortcut_front_record">Frontkamera-Aufnahme-Verknüpfung aktivieren</string>
+    <string name="description_icon_back_record">Rückkamera-Aufnahme-Symbol</string>
+    <string name="description_enable_shortcut_lock_and_record">Sperren und Aufnehmen-Verknüpfung aktivieren</string>
+    <string name="description_icon_quick_record">Schnellaufnahme-Symbol</string>
+    <string name="description_icon_front_record">Frontkamera-Aufnahme-Symbol</string>
+    <string name="description_enable_shortcut_back_record">Rückkamera-Aufnahme-Verknüpfung aktivieren</string>
+    <string name="description_quick_record_feature">Starten oder Stoppen der Aufnahme mit einem Tipp</string>
+    <string name="description_lock_and_record_feature">Fügen Sie diese Verknüpfung zum Startbildschirm hinzu, um Ihr Handy zu sperren und sofort die Aufnahme zu starten. Das Entsperren stoppt die Aufnahme automatisch, ohne dass die App in der Liste der kürzlich verwendeten Apps erscheint.</string>
+    <string name="description_front_record_feature">Aufnahme mit der Frontkamera per Tipp starten oder stoppen</string>
+    <string name="description_back_record_feature">Aufnahme mit der Rückkamera per Tipp starten oder stoppen</string>
+    <string name="description_widget_lock_and_record">Bildschirm ausschalten und Aufnahme starten</string>
+    <string name="description_widget_quick_record">Schnellaufnahme mit einem Tipp starten</string>
+    <string name="description_widget_front_record">Aufnahme mit Frontkamera starten</string>
+    <string name="description_widget_back_record">Aufnahme mit Rückkamera starten</string>
+    <string name="description_github_logo">GitHub-Logo</string>
+    <string name="description_version_info">Versionsinformationen</string>
+    <string name="description_back_navigation">Zurück navigieren</string>
+    <string name="description_app_icon">App-Symbol</string>
+    <string name="description_website_icon">Website-Symbol</string>
+    <string name="description_email_icon">E-Mail-Symbol</string>
+    <string name="description_expand_collapse">Erweitern oder einklappen</string>
+    <string name="description_feedback_header">Feedback-Kopfzeile</string>
+
+    <!-- Toasts -->
+    <string name="toast_password_disabled_successfully">Dein Passwort wurde deaktiviert.</string>
+    <string name="toast_incorrect_password">Falsches Passwort. Bitte versuch es nochmal.</string>
+    <string name="toast_authentication_failed">Authentifizierung fehlgeschlagen. Bitte versuch es nochmal.</string>
+    <string name="toast_password_reset_success">Passwort wurde erfolgreich zurückgesetzt.</string>
+    <string name="toast_passwords_do_not_match">Passwörter stimmen nicht überein. Bitte versuch es nochmal.</string>
+    <string name="toast_password_set_success">Passwort wurde erfolgreich festgelegt.</string>
+    <string name="toast_preference_saved">Deine Einstellungen wurden gespeichert.</string>
+    <string name="toast_permissions_required">Berechtigungen sind nötig, damit die App richtig funktioniert. Bitte erteile die erforderlichen Berechtigungen.</string>
+    <string name="toast_no_app_to_open_video">Keine App verfügbar, um dieses Video zu öffnen.</string>
+    <string name="toast_video_rename_success">Video wurde umbenannt zu "%1$s".</string>
+    <string name="toast_set_app_lock_first">App-Sperre ist nicht eingerichtet. Bitte aktiviere sie zuerst.</string>
+    <string name="toast_video_rename_failed">Video konnte nicht umbenannt werden.</string>
+    <string name="toast_video_rename_exists">Eine Datei namens "%1$s" existiert bereits.</string>
+    <string name="toast_video_deleted_success">Video erfolgreich gelöscht.</string>
+    <string name="toast_failed_to_delete_video">Konnte "%1$s" nicht löschen.</string>
+    <string name="toast_name_empty_error">Name darf nicht leer sein. Bitte gib einen gültigen Namen ein.</string>
+    <string name="toast_no_email_clients">Keine E-Mail-Apps installiert.</string>
+    <string name="toast_ad_not_available">Zurzeit sind keine Anzeigen verfügbar.</string>
+    <string name="toast_cannot_switch_camera_while_recording">Kann die Kamera während der Aufnahme nicht wechseln.</string>
+    <string name="toast_video_delete_failed">Video konnte nicht gelöscht werden.</string>
+    <string name="toast_device_admin_permission_required">Geräteadministrator-Berechtigung wird benötigt. Bitte in den Einstellungen aktivieren.</string>
+    <string name="toast_shortcut_added">Verknüpfung zum Startbildschirm hinzugefügt.</string>
+    <string name="toast_shortcut_not_supported">Angeheftete Verknüpfungen werden auf diesem Gerät nicht unterstützt.</string>
+    <string name="toast_shortcut_add_failed">Verknüpfung konnte nicht erstellt werden</string>
+    <string name="toast_device_admin_unavailable">Geräteverwaltung ist nicht verfügbar.</string>
+    <string name="toast_account_locked">Konto gesperrt. Versuchen Sie es in %d Sekunden erneut</string>
+
+    <!-- Buttons -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_grant_permission">Berechtigung erteilen</string>
+    <string name="btn_rename">Umbenennen</string>
+    <string name="btn_continue">Weiter</string>
+    <string name="btn_setting">Einstellungen</string>
+    <string name="btn_use_password">Passwort verwenden</string>
+    <string name="btn_confirm">Bestätigen</string>
+    <string name="btn_star_github">Auf GitHub mit Stern markieren ⭐</string>
+    <string name="btn_remind_later">Später erinnern</string>
+    <string name="btn_view_source">Quellcode ansehen</string>
+    <string name="btn_submit_bug">Fehler melden</string>
+    <string name="btn_submit_feedback">Feedback senden</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Löschen</string>
+    <string name="action_select_all">Alle auswählen</string>
+    <string name="action_deselect_all">Alle abwählen</string>
+    <string name="action_details">Details</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_save_to_gallery">In Galerie speichern</string>
+    <string name="action_open_with">Öffnen mit</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_help">Hilfe</string>
+
+    <!-- Prefs -->
+    <string name="prefs_main">Haupteinstellungen</string>
+    <string name="prefs_lock">Sperraufzeichnung</string>
+    <string name="prefs_front">Vorderaufnahme</string>
+    <string name="prefs_back">Rückaufnahme</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_new_name">Neuen Videonamen eingeben</string>
+    <string name="hint_duration_minutes">Dauer in Minuten eingeben</string>
+    <string name="hint_bug_description">Beschreiben Sie den Fehler</string>
+    <string name="hint_steps_to_reproduce">Schritte zur Reproduktion</string>
+    <string name="hint_feedback">Ihr Feedback</string>
+    <string name="hint_suggestions">Verbesserungsvorschläge</string>
+    <string name="hint_screenshot">Machen Sie einen Screenshot des Problems und kehren Sie zurück, um ihn anzuhängen</string>
+
+    <!-- Error Messages -->
+    <string name="error_url_open">URL kann nicht geöffnet werden</string>
+    <string name="error_sending_email">E-Mail konnte nicht gesendet werden</string>
+    <string name="error_invalid_number">Ungültige Nummer</string>
+    <string name="error_description_required">Bitte geben Sie eine Fehlerbeschreibung an</string>
+    <string name="error_steps_required">Bitte geben Sie die Schritte zur Reproduktion an</string>
+    <string name="error_rating_required">Bitte geben Sie eine Bewertung ab</string>
+    <string name="error_feedback_required">Bitte teilen Sie uns Ihre Erfahrung mit</string>
+
+    <!-- Others -->
+    <string name="email_feedback_prompt">Bitte geben Sie Ihr Feedback unten ein:\n</string>
+    <string name="terms_privacy_agreement">Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu.</string>
+    <string name="email_subject">Support-Anfrage</string>
+    <string name="email_client_chooser">E-Mail-Client auswählen</string>
+
+    <!-- Input Field Hints -->
+    <string name="helper_feedback">Teilen Sie mit, was Ihnen an der App gefallen oder nicht gefallen hat</string>
+    <string name="helper_suggestions">Optional: Teilen Sie Ihre Ideen mit, wie wir die App verbessern können</string>
+    <string name="helper_bug_description">Bitte beschreiben Sie den Fehler detailliert</string>
+    <string name="helper_steps_to_reproduce">Listen Sie die Schritte auf, um diesen Fehler zu reproduzieren</string>
+
+    <!-- Rating Feedback Messages -->
+    <string name="rating_very_dissatisfied">Sehr unzufrieden</string>
+    <string name="rating_dissatisfied">Unzufrieden</string>
+    <string name="rating_neutral">Neutral</string>
+    <string name="rating_satisfied">Zufrieden</string>
+    <string name="rating_very_satisfied">Sehr zufrieden</string>
+
+    <!-- newly added -->
+    <string name="choose_email_client">E-Mail-Client auswählen</string>
+    <string name="no_email_apps_found">Keine E-Mail-Apps gefunden</string>
+    <string name="bug_report_info">Helfen Sie uns bei der Verbesserung, indem Sie Probleme melden. Bitte geben Sie möglichst viele Details an.</string>
+    <string name="attachments">Anhänge (Optional)</string>
+    <string name="attach_screenshot">Screenshot anhängen</string>
+    <string name="take_screenshot">Screenshot aufnehmen</string>
+    <string name="choose_from_gallery">Aus Galerie wählen</string>
+    <string name="screenshot_attached">Screenshot angehängt</string>
+    <string name="screenshot_attached_success">Screenshot erfolgreich angehängt</string>
+    <string name="retry">Wiederholen</string>
+    <string name="rate_your_experience">Wie bewerten Sie Ihre Erfahrung?</string>
+    <string name="new_badge">NEU</string>
+
+</resources>

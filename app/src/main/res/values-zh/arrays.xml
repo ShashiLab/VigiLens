@@ -1,0 +1,96 @@
+<resources>
+    <!-- Displayed Camera options in the current language -->
+    <string-array name="camera_options">
+        <item>前置摄像头</item>
+        <item>后置摄像头</item>
+    </string-array>
+
+    <!-- Saved Camera options (always in Snake Case) -->
+    <string-array name="camera_options_fixed">
+        <item>front_camera</item>
+        <item>back_camera</item>
+    </string-array>
+
+    <!-- Displayed Resolution options in the current language -->
+    <string-array name="video_quality_options">
+        <item>"高 (全潜力)"</item>
+        <item>"1080p (全高清)"</item>
+        <item>"720p (高清)"</item>
+        <item>"480p (标准清晰度)"</item>
+        <item>"360p"</item>
+        <item>"240p"</item>
+        <item>"144p"</item>
+    </string-array>
+
+    <!-- Saved Resolution options (always in Snake Case) -->
+    <string-array name="video_quality_options_fixed">
+        <item>high</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+
+
+    <!-- Displayed Recording Durations in the current language -->
+    <string-array name="recording_durations">
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+        <item>60 分钟</item>
+        <item>无限制</item>
+    </string-array>
+
+    <!-- Saved Recording Durations -->
+    <string-array name="recording_durations_fixed">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>unlimited</item>
+    </string-array>
+
+    <!-- Displayed Theme options (localized) -->
+    <string-array name="theme_options">
+        <item>浅色</item>
+        <item>深色</item>
+        <item>系统默认</item>
+    </string-array>
+
+    <!-- Saved Theme options (always in Snake Case) -->
+    <string-array name="theme_options_fixed">
+        <item>light</item>
+        <item>dark</item>
+        <item>system_default</item>
+    </string-array>
+
+    <string-array name="file_size_units">
+        <item>字节</item>
+        <item>千字节</item>
+        <item>兆字节</item>
+        <item>千兆字节</item>
+        <item>太字节</item>
+    </string-array>
+
+    <string-array name="preview_size_options">
+        <item>超小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+
+    <string-array name="preview_size_options_fixed">
+        <item>extra_small</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>extra_large</item>
+    </string-array>
+
+
+</resources>

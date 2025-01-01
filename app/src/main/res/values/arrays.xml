@@ -1,0 +1,129 @@
+<resources>
+
+    <string-array name="camera_options">
+        <item>Front Camera</item>
+        <item>Back Camera</item>
+    </string-array>
+
+
+    <string-array name="camera_options_fixed">
+        <item>front_camera</item>
+        <item>back_camera</item>
+    </string-array>
+
+
+    <string-array name="video_quality_options">
+        <item>"High (Full Potential)"</item>
+        <item>"1080p (Full HD)"</item>
+        <item>"720p (HD)"</item>
+        <item>"480p (SD)"</item>
+        <item>"360p"</item>
+        <item>"240p"</item>
+        <item>"144p"</item>
+    </string-array>
+
+
+    <string-array name="video_quality_options_fixed">
+        <item>high</item>
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+
+
+
+
+    <string-array name="recording_durations">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+        <item>60 minutes</item>
+        <item>Unlimited</item>
+    </string-array>
+
+
+    <string-array name="recording_durations_fixed">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>unlimited</item>
+    </string-array>
+
+
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+
+    <string-array name="theme_options_fixed">
+        <item>light</item>
+        <item>dark</item>
+        <item>system_default</item>
+    </string-array>
+
+
+    <string-array name="language_options">
+        <item>English</item>
+        <item>हिन्दी (Hindi)</item>
+        <item>Español (Spanish)</item>
+        <item>简体中文 (Chinese Simplified)</item>
+        <item>العربية (Arabic)</item>
+        <item>Português (Portuguese)</item>
+        <item>Français (French)</item>
+        <item>Русский (Russian)</item>
+        <item>Deutsch (German)</item>
+        <item>日本語 (Japanese)</item>
+        <item>System Default</item>
+    </string-array>
+
+
+    <string-array name="language_options_fixed">
+        <item>en</item>
+        <item>hi</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>ar</item>
+        <item>pt</item>
+        <item>fr</item>
+        <item>ru</item>
+        <item>de</item>
+        <item>ja</item>
+        <item>system_default</item>
+    </string-array>
+
+
+    <string-array name="file_size_units">
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+
+
+    <string-array name="preview_size_options">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+
+
+    <string-array name="preview_size_options_fixed">
+        <item>extra_small</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>extra_large</item>
+    </string-array>
+
+</resources>

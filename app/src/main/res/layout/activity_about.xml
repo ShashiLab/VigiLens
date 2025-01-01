@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_surface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:title="@string/title_about_us"
+            app:navigationContentDescription="@string/description_back_navigation"
+            style="@style/Widget.Material3.Toolbar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- App Info Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="4dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:contentDescription="@string/description_app_icon"
+                    app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge"
+                    app:strokeColor="?attr/colorOutline"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/app_name"
+                    android:textAppearance="?attr/textAppearanceHeadlineMedium" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/version_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="24dp"
+                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    tools:text="@string/label_version" />
+            </LinearLayout>
+
+            <!-- Description Section -->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/welcome_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_welcome"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_about_intro"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_about_privacy"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_about_features"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_about_opensource"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_about_team"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Buttons Section -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/source_code_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_view_source"
+                android:layout_gravity="center_horizontal"
+                app:icon="@drawable/ic_github"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_marginVertical="24dp"
+                android:paddingHorizontal="24dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/terms_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_terms_of_use"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:textColor="?attr/colorPrimary"
+                android:gravity="start|center_vertical"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/privacy_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_privacy_policy"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:textColor="?attr/colorPrimary"
+                android:gravity="start|center_vertical"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Contact Section -->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/queries_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_contact"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Website Row -->
+            <LinearLayout
+                android:id="@+id/website_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_vertical"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_globe"
+                    android:contentDescription="@string/description_website_icon"
+                    app:tint="?attr/colorOnSurface"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_website"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/url_website"
+                        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                        android:alpha="0.8"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Email Row -->
+            <LinearLayout
+                android:id="@+id/email_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="32dp"
+                android:gravity="center_vertical"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_email"
+                    android:contentDescription="@string/description_email_icon"
+                    app:tint="?attr/colorOnSurface"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_email"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/url_support_email"
+                        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                        android:alpha="0.8"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Footer Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?attr/colorOutline"
+                    android:alpha="0.12"/>
+
+                <!-- Watermark -->
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_watermark"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                    android:textColor="?attr/colorPrimary"
+                    android:layout_marginTop="16dp"/>
+
+                <!-- GPL3 License Text -->
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_license"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Copyright Text -->
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_copyright"
+                    android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:alpha="0.8"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

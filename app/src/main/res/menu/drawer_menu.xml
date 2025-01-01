@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Main Features Group -->
+    <group android:id="@+id/group_main_features">
+        <item
+            android:id="@+id/navigation_record"
+            android:icon="@drawable/ic_record"
+            android:title="@string/title_record" />
+        <item
+            android:id="@+id/navigation_videos"
+            android:icon="@drawable/ic_video_library"
+            android:title="@string/title_videos" />
+    </group>
+
+    <!-- Settings Group -->
+    <group android:id="@+id/group_settings">
+        <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/title_settings" />
+        <item
+            android:id="@+id/navigation_shortcuts"
+            android:icon="@drawable/ic_app_shortcut"
+            android:title="@string/title_shortcuts"
+            app:actionLayout="@layout/menu_new_badge" />
+    </group>
+
+    <!-- Help & Support Group -->
+    <group android:id="@+id/group_support">
+        <item
+            android:id="@+id/navigation_report_bug"
+            android:icon="@drawable/ic_bug"
+            android:title="@string/title_report_bug" />
+        <item
+            android:id="@+id/navigation_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/title_feedback" />
+    </group>
+
+    <!-- About Group -->
+    <group android:id="@+id/group_about">
+        <item
+            android:id="@+id/navigation_about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/title_about" />
+    </group>
+</menu>

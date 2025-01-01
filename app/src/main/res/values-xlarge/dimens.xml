@@ -1,0 +1,84 @@
+<resources>
+    <!-- Default screen margins -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+
+    <!-- General Sizes -->
+    <dimen name="size_xsmall">6dp</dimen>
+    <dimen name="size_small">12dp</dimen>
+    <dimen name="size_medium">24dp</dimen>
+    <dimen name="size_large">36dp</dimen>
+    <dimen name="size_xlarge">48dp</dimen>
+
+    <!-- Padding Sizes -->
+    <dimen name="padding_none">0dp</dimen>
+    <dimen name="padding_xsmall">6dp</dimen>
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="padding_large">36dp</dimen>
+    <dimen name="padding_xlarge">48dp</dimen>
+
+    <!-- Margin Sizes -->
+    <dimen name="margin_none">0dp</dimen>
+    <dimen name="margin_xsmall">6dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">36dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_xsmall">15sp</dimen>
+    <dimen name="text_size_small">18sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_large">30sp</dimen>
+    <dimen name="text_size_xlarge">36sp</dimen>
+
+    <!-- Elevation Sizes -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_default">6dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="elevation_card">6dp</dimen>
+    <dimen name="elevation_fab">9dp</dimen>
+
+    <!-- Component-Specific Dimensions -->
+
+    <!-- Button -->
+    <dimen name="button_height">72dp</dimen>
+    <dimen name="button_padding_vertical">18dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius_small">12dp</dimen>
+    <dimen name="card_corner_radius_medium">24dp</dimen>
+    <dimen name="card_corner_radius_large">36dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+
+    <!-- Fab Button -->
+    <dimen name="fab_size">84dp</dimen>
+    <dimen name="fab_margin_bottom">24dp</dimen>
+
+    <!-- Toolbar/AppBar -->
+    <dimen name="toolbar_height">84dp</dimen>
+    <dimen name="toolbar_icon_size">36dp</dimen>
+
+    <!-- Bottom Navigation -->
+    <dimen name="bottom_nav_icon_size">36dp</dimen>
+    <dimen name="bottom_nav_margin">24dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_xsmall">24dp</dimen>
+    <dimen name="icon_size_small">36dp</dimen>
+    <dimen name="icon_size_medium">48dp</dimen>
+    <dimen name="icon_size_large">72dp</dimen>
+    <dimen name="icon_size_xlarge">96dp</dimen>
+    <dimen name="video_thumbnail_size">120dp</dimen>
+
+
+    <!--Time Display-->
+    <dimen name="time_display_height">300dp</dimen>
+    <dimen name="time_display_width">300dp</dimen>
+    <dimen name="time_display_text_size">54sp</dimen>
+
+
+</resources>

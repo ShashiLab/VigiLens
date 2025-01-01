@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_record">
+
+    <!-- Existing destinations -->
+    <fragment
+        android:id="@+id/navigation_record"
+        android:name="app.shashi.VigiLens.feature.recording.ui.RecordingFragment"
+        android:label="@string/title_record"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="app.shashi.VigiLens.feature.gallery.ui.GalleryFragment"
+        android:label="@string/title_videos"
+        tools:layout="@layout/fragment_videos" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="app.shashi.VigiLens.feature.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <activity
+        android:id="@+id/navigation_shortcuts"
+        android:name="app.shashi.VigiLens.feature.settings.quickaccess.ShortcutsSettingsActivity"
+        android:label="@string/title_shortcuts"
+        tools:layout="@layout/activity_shortcuts_settings" />
+
+    <!-- New support destinations -->
+    <activity
+        android:id="@+id/navigation_report_bug"
+        android:name="app.shashi.VigiLens.support.ReportBugActivity"
+        android:label="@string/title_report_bug"
+        tools:layout="@layout/activity_report_bug" />
+
+    <activity
+        android:id="@+id/navigation_feedback"
+        android:name="app.shashi.VigiLens.support.FeedbackActivity"
+        android:label="@string/title_feedback"
+        tools:layout="@layout/activity_feedback" />
+
+    <activity
+        android:id="@+id/navigation_about"
+        android:name="app.shashi.VigiLens.about.AboutActivity"
+        android:label="@string/title_about"
+        tools:layout="@layout/activity_about" />
+
+</navigation>

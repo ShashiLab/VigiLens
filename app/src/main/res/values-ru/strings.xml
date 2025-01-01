@@ -1,0 +1,307 @@
+<resources>
+    <!-- Labels -->
+    <string name="label_duration">Длительность</string>
+    <string name="label_date">Дата</string>
+    <string name="label_name">Имя</string>
+    <string name="label_path">Путь</string>
+    <string name="label_size">Размер</string>
+    <string name="label_no_videos_found">Видео не найдены</string>
+    <string name="label_title">Заголовок</string>
+    <string name="label_video_size">Размер</string>
+    <string name="label_video_date">Дата</string>
+    <string name="label_back_camera">Задняя камера</string>
+    <string name="label_timer">00:00</string>
+    <string name="label_unlimited">Неограниченно</string>
+    <string name="label_system_default">Системный по умолчанию</string>
+    <string name="label_front_camera">Фронтальная камера</string>
+    <string name="label_last_modified">Последнее изменение</string>
+    <string name="label_camera_permission">Доступ к камере</string>
+    <string name="label_audio_permission">Запись звука</string>
+    <string name="label_notifications_permission">Уведомления</string>
+    <string name="label_app_theme">Тема приложения</string>
+    <string name="label_video_quality">Качество видео</string>
+    <string name="label_recording_duration">Длительность записи</string>
+    <string name="label_show_preview">Показать превью</string>
+    <string name="label_biometric_authentication">Биометрическая аутентификация</string>
+    <string name="label_language">Язык</string>
+    <string name="label_preview_size">Размер превью</string>
+    <string name="label_minutes">Минуты</string>
+    <string name="label_shortcut_quick_record">Быстрая запись</string>
+    <string name="label_screen_off">Экран выключен</string>
+    <string name="label_quick_record">Быстрая запись</string>
+    <string name="label_shortcut_lock_and_record">Блокировка и запись</string>
+    <string name="label_back_record">Задняя камера</string>
+    <string name="label_front_record">Передняя камера</string>
+    <string name="label_front_camera_long">Начать запись на переднюю камеру</string>
+    <string name="label_back_camera_long">Начать запись на заднюю камеру</string>
+    <string name="label_quick_record_long">Быстро начать запись</string>
+    <string name="label_lock_record_long">Запись с заблокированным экраном</string>
+    <string name="label_shortcuts">Ярлыки</string>
+    <string name="label_version">Версия %s</string>
+    <string name="label_version_unknown">Неизвестная версия</string>
+    <string name="label_website">Сайт</string>
+    <string name="label_email">Почта</string>
+    <string name="label_copyright">© 2024 Все права защищены</string>
+    <string name="label_license">Под лицензией GNU GPL v3.0</string>
+    <string name="label_watermark">Shashi.app</string>
+    <string name="label_rate_app">Оценить приложение</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_recording">Запись видео</string>
+    <string name="notification_title_recording_stopped">Запись остановлена</string>
+    <string name="notification_text_recording_in_progress">Запись продолжается…</string>
+    <string name="notification_title_saving_video">Сохранение видео</string>
+    <string name="notification_text_saving_video">Видео сохраняется в галерею…</string>
+    <string name="notification_saving_video_progress">Видео сохраняется в галерею… %d%%</string>
+    <string name="notification_title_save_completed">Видео сохранено</string>
+    <string name="notification_title_save_failed">Не удалось сохранить видео</string>
+    <string name="notification_action_stop">Стоп</string>
+    <string name="notification_text_recording_stopped_low_storage">Запись остановлена из-за недостатка памяти.</string>
+    <string name="notification_text_error_permission_denied">Доступ запрещен</string>
+    <string name="notification_text_error_file_not_found">Файл не найден</string>
+    <string name="notification_text_error_unknown">Произошла неизвестная ошибка</string>
+
+    <!-- Titles -->
+    <string name="title_record">Записать видео</string>
+    <string name="title_videos">Галерея видео</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_privacy_policy">Политика конфиденциальности</string>
+    <string name="title_terms_of_use">Условия использования</string>
+    <string name="title_rate_app">Оценить приложение</string>
+    <string name="title_save_failed">Не удалось сохранить</string>
+    <string name="title_app_permission">Разрешения приложения</string>
+    <string name="title_video_details">Детали видео</string>
+    <string name="title_delete_video">Удалить видео</string>
+    <string name="title_video_saved">Видео сохранено</string>
+    <string name="title_save_video">Сохранить видео</string>
+    <string name="title_no_videos_selected">Нет выбранных видео</string>
+    <string name="title_confirm_deletion">Подтвердите удаление</string>
+    <string name="title_no_videos">Нет видео</string>
+    <string name="title_error">Ошибка</string>
+    <string name="title_permission_denied">Доступ запрещен</string>
+    <string name="title_biometric_prompt">Разблокируйте BG Video Recorder</string>
+    <string name="title_grant_permissions">Нужна помощь?</string>
+    <string name="title_overlay_permission">Разрешение на наложение</string>
+    <string name="title_enter_new_password">Введите новый пароль</string>
+    <string name="title_confirm_new_password">Подтвердите новый пароль</string>
+    <string name="title_enter_pin_prompt">Введите PIN для отключения</string>
+    <string name="title_enter_password">Введите пароль</string>
+    <string name="title_enter_current_password">Введите текущий пароль</string>
+    <string name="title_set_password">Установить пароль</string>
+    <string name="title_video_settings">Настройки видео</string>
+    <string name="title_app_settings">Настройки приложения</string>
+    <string name="title_security_settings">Настройки безопасности</string>
+    <string name="title_video_camera">Видеокамера</string>
+    <string name="title_lock_app">Заблокировать приложение</string>
+    <string name="title_share_video">Поделиться видео</string>
+    <string name="title_rename_video">Переименовать видео</string>
+    <string name="title_reset_password">Сбросить пароль</string>
+    <string name="title_preview_settings">Настройки превью</string>
+    <string name="title_confirm_password">Подтвердите пароль</string>
+    <string name="title_video_saved_to_gallery">Видео сохранено в галерею</string>
+    <string name="title_failed_to_save_video">Не удалось сохранить видео</string>
+    <string name="title_error_not_enough_space">Недостаточно места</string>
+    <string name="title_video_name">Название видео</string>
+    <string name="title_app_feedback">Отзывы о приложении</string>
+    <string name="title_select_language">Выберите язык</string>
+    <string name="title_select_theme">Выберите тему</string>
+    <string name="title_select_camera">Выберите камеру</string>
+    <string name="title_select_resolution">Выберите разрешение</string>
+    <string name="title_select_recording_duration">Выберите длительность записи</string>
+    <string name="title_select_preview_size">Выберите размер превью</string>
+    <string name="title_shortcuts">Ярлыки</string>
+    <string name="title_remove_shortcut">Удалить ярлык</string>
+    <string name="title_about">О приложении</string>
+    <string name="title_welcome">Добро пожаловать в VigiLens</string>
+    <string name="title_about_us">О нас</string>
+    <string name="title_contact">Контакты</string>
+    <string name="title_github_support">Поддержите открытый код!</string>
+    <string name="title_star_reason">Почему стоит оценить наш проект?</string>
+    <string name="title_report_bug">Сообщить об ошибке</string>
+    <string name="title_feedback">Отзыв</string>
+    <string name="title_help">Помощь</string>
+    <string name="title_thank_you">Спасибо!</string>
+
+    <!-- Messages -->
+    <string name="message_help_dialog">Чтобы все работало гладко, пожалуйста, предоставьте необходимые разрешения. Просто включите переключатели и примите условия, чтобы продолжить.</string>
+    <string name="message">Ваше сообщение здесь</string>
+    <string name="message_give_permissions">Нам нужны некоторые разрешения, чтобы все работало хорошо. Пожалуйста, предоставьте их ниже:</string>
+    <string name="message_permission_denied">Для работы приложения требуются разрешения. Пожалуйста, включите их в настройках, чтобы продолжить.</string>
+    <string name="message_overlay_permission">Нам нужно это разрешение, чтобы показывать превью камеры во время записи. Пожалуйста, предоставьте его, чтобы использовать функцию превью.</string>
+    <string name="message_video_not_available">Извините, видео не может быть воспроизведено, потому что файл недоступен.</string>
+    <string name="message_no_videos">В настоящее время нет доступных видео.</string>
+    <string name="message_no_videos_selected">Пожалуйста, выберите хотя бы одно видео для удаления.</string>
+    <string name="message_confirm_deletion">Вы уверены, что хотите удалить выбранные видео?</string>
+    <string name="message_conform_delete">Вы уверены, что хотите удалить это видео?</string>
+    <string name="message_watch_ad_support_us">Поддержите нас, посмотрев рекламу, пока мы сохраняем ваше видео в галерею. Спасибо!</string>
+    <string name="message_video_saved">Ваше видео успешно сохранено в галерею!</string>
+    <string name="message_delete_confirmation">Вы действительно хотите удалить %1$s?</string>
+    <string name="message_app_tagline">Записывайте видео незаметно</string>
+    <string name="message_save_failed">Ой, при сохранении вашего видео произошла ошибка. Пожалуйста, попробуйте снова.</string>
+    <string name="message_permission_granted">Разрешения предоставлены</string>
+    <string name="message_device_admin_explanation">Для использования этой функции приложению нужны права администратора устройства. Пожалуйста, включите их в настройках вашего устройства</string>
+    <string name="message_remove_shortcut">Ярлыки нельзя удалить автоматически. Пожалуйста, удалите ярлык вручную с главного экрана</string>
+    <string name="message_front_record_disabled">Фронтальная запись недоступна</string>
+    <string name="message_back_record_disabled">Задняя запись недоступна</string>
+    <string name="message_quick_record_disabled">Быстрая запись недоступна</string>
+    <string name="message_lock_record_disabled">Блокированная запись недоступна</string>
+    <string name="message_github_support">Нравится приложение?</string>
+    <string name="message_github_star">Поддержите наш проект, поставив звезду на GitHub. Это займёт всего несколько секунд, но много значит для нас!</string>
+    <string name="message_star_benefits">• Помогите другим найти это приложение\n• Поддержите бесплатное и открытое программное обеспечение\n• Мотивируйте нас добавлять новые функции\n• Присоединяйтесь к нашему растущему сообществу</string>
+    <string name="message_about_intro">VigiLens (Фоновый Видеорекордер) - это профессиональное приложение для видеозаписи, разработанное для деликатного документирования. Мы уделяем первостепенное внимание конфиденциальности, эффективности и удобству использования во всех аспектах нашего дизайна</string>
+    <string name="message_about_privacy">Фокусируясь на надёжности, VigiLens работает полностью офлайн и сохраняет все записи локально на вашем устройстве. Мы оптимизировали приложение для высококачественной HD-записи при эффективном использовании батареи и управлении системными ресурсами</string>
+    <string name="message_about_features">VigiLens предлагает важные функции для профессионального и академического использования, включая возможность фоновой записи, безопасное хранение и настраиваемые элементы быстрого доступа. Приложение сохраняет полную функциональность даже при выключенном экране для обеспечения деликатной работы</string>
+    <string name="message_about_opensource">Как проект с открытым исходным кодом, VigiLens поддерживает прозрачность, постоянно совершенствуясь благодаря вкладу сообщества. Наше обязательство остаётся сосредоточенным на предоставлении надёжного, безопасного и уважающего конфиденциальность решения для записи</string>
+    <string name="message_about_team">Разработано и поддерживается командой разработчиков VigiLens</string>
+    <string name="message_thank_you">Благодарим вас за то, что уделили время для обратной связи. Ваш вклад помогает нам улучшать приложение для всех пользователей</string>
+
+    <!-- Descriptions -->
+    <string name="description_start_recording">Нажмите, чтобы начать запись</string>
+    <string name="description_switch_to_front_camera">Переключиться на фронтальную камеру</string>
+    <string name="description_switch_to_back_camera">Переключиться на заднюю камеру</string>
+    <string name="description_video_view">Интерфейс видеоплеера</string>
+    <string name="description_overflow_menu">Меню дополнительных опций</string>
+    <string name="description_scrollview">Прокручиваемая область контента</string>
+    <string name="description_stop_recording">Нажмите, чтобы остановить запись</string>
+    <string name="description_close">Нажмите, чтобы закрыть</string>
+    <string name="description_enable_biometric_authentication">Включить или выключить биометрическую аутентификацию</string>
+    <string name="description_enable_password">Включить или выключить блокировку приложения</string>
+    <string name="description_notifications_permission">Это приложение запрашивает разрешение на отправку уведомлений</string>
+    <string name="description_permission_camera">Это приложение требует доступ к вашей камере для записи видео</string>
+    <string name="description_permission_microphone">Это приложение требует доступ к вашему микрофону для записи аудио</string>
+    <string name="description_enable_quick_record_shortcut">Включить ярлык быстрой записи</string>
+    <string name="description_icon_lock_and_record">Ярлык блокировки и записи</string>
+    <string name="description_enable_shortcut_front_record">Включить ярлык записи с фронтальной камеры</string>
+    <string name="description_icon_back_record">Значок записи с основной камеры</string>
+    <string name="description_enable_shortcut_lock_and_record">Включить ярлык блокировки и записи</string>
+    <string name="description_icon_quick_record">Значок быстрой записи</string>
+    <string name="description_icon_front_record">Значок записи с фронтальной камеры</string>
+    <string name="description_enable_shortcut_back_record">Включить ярлык записи с основной камеры</string>
+    <string name="description_quick_record_feature">Начните или остановите запись одним касанием</string>
+    <string name="description_lock_and_record_feature">Добавьте этот ярлык на главный экран, чтобы заблокировать телефон и мгновенно начать скрытую запись. При разблокировке устройства запись автоматически остановится, не оставляя следов в последних приложениях.</string>
+    <string name="description_front_record_feature">Начните или остановите запись с фронтальной камеры одним касанием</string>
+    <string name="description_back_record_feature">Начните или остановите запись с основной камеры одним касанием</string>
+    <string name="description_widget_lock_and_record">Выключить экран и начать запись</string>
+    <string name="description_widget_quick_record">Начать быструю запись одним касанием</string>
+    <string name="description_widget_front_record">Начать запись с фронтальной камеры</string>
+    <string name="description_widget_back_record">Начать запись с основной камеры</string>
+    <string name="description_github_logo">Логотип GitHub</string>
+    <string name="description_version_info">Информация о версии</string>
+    <string name="description_back_navigation">Вернуться назад</string>
+    <string name="description_app_icon">Значок приложения</string>
+    <string name="description_website_icon">Значок веб-сайта</string>
+    <string name="description_email_icon">Значок электронной почты</string>
+    <string name="description_expand_collapse">Развернуть или свернуть</string>
+    <string name="description_feedback_header">Изображение заголовка обратной связи</string>
+
+    <!-- Toasts -->
+    <string name="toast_password_disabled_successfully">Ваш пароль был отключен.</string>
+    <string name="toast_incorrect_password">Неправильный пароль. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_authentication_failed">Аутентификация не удалась. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_password_reset_success">Пароль успешно сброшен.</string>
+    <string name="toast_passwords_do_not_match">Пароли не совпадают. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_password_set_success">Пароль успешно установлен.</string>
+    <string name="toast_preference_saved">Ваши настройки сохранены.</string>
+    <string name="toast_permissions_required">Для правильной работы приложения требуются разрешения. Пожалуйста, предоставьте необходимые разрешения.</string>
+    <string name="toast_no_app_to_open_video">Нет приложений для открытия этого видео.</string>
+    <string name="toast_video_rename_success">Видео переименовано в "%1$s".</string>
+    <string name="toast_set_app_lock_first">Блокировка приложения не настроена. Пожалуйста, сначала включите ее.</string>
+    <string name="toast_video_rename_failed">Не удалось переименовать видео.</string>
+    <string name="toast_video_rename_exists">Файл с именем "%1$s" уже существует.</string>
+    <string name="toast_video_deleted_success">Видео успешно удалено.</string>
+    <string name="toast_failed_to_delete_video">Не удалось удалить "%1$s".</string>
+    <string name="toast_name_empty_error">Имя не может быть пустым. Пожалуйста, введите допустимое имя.</string>
+    <string name="toast_no_email_clients">Нет установленных почтовых приложений.</string>
+    <string name="toast_ad_not_available">В настоящее время нет доступных объявлений.</string>
+    <string name="toast_cannot_switch_camera_while_recording">Нельзя переключить камеру во время записи.</string>
+    <string name="toast_video_delete_failed">Не удалось удалить видео.</string>
+    <string name="toast_device_admin_permission_required">Для включения этой функции требуются права администратора. Предоставьте их в настройках.</string>
+    <string name="toast_shortcut_added">Ярлык добавлен на главный экран.</string>
+    <string name="toast_shortcut_not_supported">Закрепленные ярлыки не поддерживаются на этом устройстве.</string>
+    <string name="toast_shortcut_add_failed">Не удалось добавить ярлык</string>
+    <string name="toast_device_admin_unavailable">Управление политиками устройства недоступно.</string>
+    <string name="toast_account_locked">Аккаунт заблокирован. Повторите через %d секунд</string>
+
+    <!-- Buttons -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_grant_permission">Предоставить разрешение</string>
+    <string name="btn_rename">Переименовать</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="btn_setting">Настройки</string>
+    <string name="btn_use_password">Использовать пароль</string>
+    <string name="btn_confirm">Подтвердить</string>
+    <string name="btn_star_github">Поставить звезду на GitHub ⭐</string>
+    <string name="btn_remind_later">Напомнить позже</string>
+    <string name="btn_view_source">Посмотреть исходный код</string>
+    <string name="btn_submit_bug">Сообщить об ошибке</string>
+    <string name="btn_submit_feedback">Отправить отзыв</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Удалить</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="action_deselect_all">Снять выбор со всех</string>
+    <string name="action_details">Детали</string>
+    <string name="action_rename">Переименовать</string>
+    <string name="action_save_to_gallery">Сохранить в галерею</string>
+    <string name="action_open_with">Открыть с помощью</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_help">Помощь</string>
+
+    <!-- Prefs -->
+    <string name="prefs_main">Основные настройки</string>
+    <string name="prefs_lock">Блокировка записи</string>
+    <string name="prefs_front">Передняя запись</string>
+    <string name="prefs_back">Задняя запись</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_new_name">Введите название видео</string>
+    <string name="hint_duration_minutes">Введите длительность в минутах</string>
+    <string name="hint_bug_description">Опишите ошибку</string>
+    <string name="hint_steps_to_reproduce">Шаги для воспроизведения</string>
+    <string name="hint_feedback">Ваш отзыв</string>
+    <string name="hint_suggestions">Предложения по улучшению</string>
+    <string name="hint_screenshot">Сделайте скриншот проблемы и вернитесь, чтобы прикрепить его</string>
+
+    <!-- Error Messages -->
+    <string name="error_url_open">Не удалось открыть URL</string>
+    <string name="error_sending_email">Не удалось отправить email</string>
+    <string name="error_invalid_number">Неверный номер</string>
+    <string name="error_description_required">Пожалуйста, опишите ошибку</string>
+    <string name="error_steps_required">Пожалуйста, укажите шаги для воспроизведения</string>
+    <string name="error_rating_required">Пожалуйста, поставьте оценку</string>
+    <string name="error_feedback_required">Пожалуйста, расскажите о вашем опыте</string>
+
+    <!-- Others -->
+    <string name="email_feedback_prompt">Пожалуйста, оставьте свой отзыв ниже:\n</string>
+    <string name="terms_privacy_agreement">Я согласен с Условиями использования и Политикой конфиденциальности.</string>
+    <string name="email_subject">Запрос в поддержку</string>
+    <string name="email_client_chooser">Выберите почтовый клиент</string>
+
+    <!-- Input Field Hints -->
+    <string name="helper_feedback">Расскажите, что вам понравилось или не понравилось в приложении</string>
+    <string name="helper_suggestions">Необязательно: Поделитесь идеями по улучшению приложения</string>
+    <string name="helper_bug_description">Подробно опишите ошибку</string>
+    <string name="helper_steps_to_reproduce">Перечислите шаги для воспроизведения ошибки</string>
+
+    <!-- Rating Feedback Messages -->
+    <string name="rating_very_dissatisfied">Очень недоволен</string>
+    <string name="rating_dissatisfied">Недоволен</string>
+    <string name="rating_neutral">Нейтрально</string>
+    <string name="rating_satisfied">Доволен</string>
+    <string name="rating_very_satisfied">Очень доволен</string>
+
+    <!-- newly added -->
+    <string name="choose_email_client">Выберите почтовый клиент</string>
+    <string name="no_email_apps_found">Почтовые приложения не найдены</string>
+    <string name="bug_report_info">Помогите нам улучшить приложение, сообщив о проблемах. Пожалуйста, предоставьте как можно больше деталей.</string>
+    <string name="attachments">Вложения (Необязательно)</string>
+    <string name="attach_screenshot">Прикрепить скриншот</string>
+    <string name="take_screenshot">Сделать скриншот</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="screenshot_attached">Скриншот прикреплен</string>
+    <string name="screenshot_attached_success">Скриншот успешно прикреплен</string>
+    <string name="retry">Повторить</string>
+    <string name="rate_your_experience">Как вы оцениваете работу приложения?</string>
+    <string name="new_badge">НОВОЕ</string>
+</resources>

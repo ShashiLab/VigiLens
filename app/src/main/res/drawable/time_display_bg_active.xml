@@ -1,0 +1,81 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurface" />
+            <size android:width="@dimen/time_display_width" android:height="@dimen/time_display_height" />
+        </shape>
+    </item>
+
+
+    <item
+        android:bottom="@dimen/margin_small"
+        android:left="@dimen/margin_small"
+        android:right="@dimen/margin_small"
+        android:top="@dimen/margin_small">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurfaceContainerLow" />
+            <corners android:radius="@dimen/size_large" />
+        </shape>
+    </item>
+
+
+    <item
+        android:bottom="@dimen/margin_medium"
+        android:left="@dimen/margin_medium"
+        android:right="@dimen/margin_medium"
+        android:top="@dimen/margin_medium">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurfaceContainerHigh" />
+            <corners android:radius="@dimen/size_medium" />
+            <stroke
+                android:width="@dimen/size_xsmall"
+                android:color="?attr/colorPrimary" />
+        </shape>
+    </item>
+
+
+    <item
+        android:bottom="@dimen/margin_large"
+        android:left="@dimen/margin_large"
+        android:right="@dimen/margin_large"
+        android:top="@dimen/margin_large">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurfaceContainer" />
+            <stroke
+                android:width="@dimen/size_xsmall"
+                android:color="?attr/colorOutline" />
+        </shape>
+    </item>
+
+
+    <item
+        android:bottom="@dimen/margin_xlarge"
+        android:left="@dimen/margin_xlarge"
+        android:right="@dimen/margin_xlarge"
+        android:top="@dimen/margin_xlarge">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurface" />
+            <corners android:radius="@dimen/size_medium" />
+            <stroke
+                android:width="@dimen/size_xsmall"
+                android:color="?attr/colorOutlineVariant" />
+        </shape>
+    </item>
+
+
+    <item
+        android:bottom="@dimen/margin_xlarge"
+        android:left="@dimen/margin_xlarge"
+        android:right="@dimen/margin_xlarge"
+        android:top="@dimen/margin_xlarge">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorSurface" />
+            <stroke
+                android:width="@dimen/size_xsmall"
+                android:color="?attr/colorOutlineVariant" />
+        </shape>
+    </item>
+
+</layer-list>

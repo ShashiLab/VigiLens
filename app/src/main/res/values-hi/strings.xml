@@ -1,0 +1,311 @@
+<resources>
+
+    <!-- Labels -->
+    <string name="label_duration">अवधि</string>
+    <string name="label_date">तारीख</string>
+    <string name="label_name">नाम</string>
+    <string name="label_path">स्थान</string>
+    <string name="label_size">साइज़</string>
+    <string name="label_no_videos_found">कोई वीडियो नहीं मिला</string>
+    <string name="label_title">शीर्षक</string>
+    <string name="label_video_size">साइज़</string>
+    <string name="label_video_date">तारीख</string>
+    <string name="label_back_camera">पिछला कैमरा</string>
+    <string name="label_timer">00:00</string>
+    <string name="label_unlimited">असीमित</string>
+    <string name="label_system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="label_front_camera">फ्रंट कैमरा</string>
+    <string name="label_last_modified">अंतिम परिवर्तन</string>
+    <string name="label_camera_permission">कैमरा अनुमति</string>
+    <string name="label_audio_permission">ऑडियो रिकॉर्डिंग</string>
+    <string name="label_notifications_permission">सूचनाएँ</string>
+    <string name="label_app_theme">ऐप थीम</string>
+    <string name="label_video_quality">वीडियो गुणवत्ता</string>
+    <string name="label_recording_duration">रिकॉर्डिंग अवधि</string>
+    <string name="label_show_preview">पूर्वावलोकन दिखाएं</string>
+    <string name="label_biometric_authentication">बायोमेट्रिक प्रमाणीकरण</string>
+    <string name="label_language">भाषा</string>
+    <string name="label_preview_size">पूर्वावलोकन साइज़</string>
+    <string name="label_minutes">मिनट</string>
+    <string name="label_shortcut_quick_record">त्वरित रिकॉर्ड</string>
+    <string name="label_screen_off">स्क्रीन बंद</string>
+    <string name="label_quick_record">त्वरित रिकॉर्ड</string>
+    <string name="label_shortcut_lock_and_record">लॉक और रिकॉर्ड</string>
+    <string name="label_back_record">पीछे का कैमरा</string>
+    <string name="label_front_record">सामने का कैमरा</string>
+    <string name="label_front_camera_long">सामने के कैमरे से रिकॉर्डिंग शुरू करें</string>
+    <string name="label_back_camera_long">पीछे के कैमरे से रिकॉर्डिंग शुरू करें</string>
+    <string name="label_quick_record_long">तुरंत रिकॉर्डिंग शुरू करें</string>
+    <string name="label_lock_record_long">स्क्रीन लॉक के साथ रिकॉर्ड करें</string>
+    <string name="label_shortcuts">शॉर्टकट</string>
+    <string name="label_version">वर्जन %s</string>
+    <string name="label_version_unknown">अज्ञात वर्जन</string>
+    <string name="label_website">वेबसाइट</string>
+    <string name="label_email">ईमेल</string>
+    <string name="label_copyright">© 2024 सर्वाधिकार सुरक्षित</string>
+    <string name="label_license">GNU GPL v3.0 के तहत लाइसेंस</string>
+    <string name="label_watermark">Shashi.app</string>
+    <string name="label_rate_app">ऐप को रेट करें</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_recording">वीडियो रिकॉर्डिंग</string>
+    <string name="notification_title_recording_stopped">रिकॉर्डिंग बंद हुई</string>
+    <string name="notification_text_recording_in_progress">रिकॉर्डिंग जारी है…</string>
+    <string name="notification_title_saving_video">वीडियो सेव हो रहा है</string>
+    <string name="notification_text_saving_video">वीडियो गैलरी में सेव हो रहा है…</string>
+    <string name="notification_saving_video_progress">वीडियो गैलरी में सेव हो रहा है… %d%%</string>
+    <string name="notification_title_save_completed">वीडियो सेव पूरा हुआ</string>
+    <string name="notification_title_save_failed">वीडियो सेव विफल</string>
+    <string name="notification_action_stop">रोकें</string>
+    <string name="notification_text_recording_stopped_low_storage">कम स्टोरेज के कारण रिकॉर्डिंग बंद हुई।</string>
+    <string name="notification_text_error_permission_denied">अनुमति अस्वीकृत</string>
+    <string name="notification_text_error_file_not_found">फ़ाइल नहीं मिली</string>
+    <string name="notification_text_error_unknown">एक अज्ञात त्रुटि हुई</string>
+
+    <!-- Titles -->
+    <string name="title_record">वीडियो रिकॉर्ड करें</string>
+    <string name="title_videos">वीडियो गैलरी</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_privacy_policy">गोपनीयता नीति</string>
+    <string name="title_terms_of_use">उपयोग की शर्तें</string>
+    <string name="title_rate_app">ऐप को रेट करें</string>
+    <string name="title_save_failed">सेव विफल</string>
+    <string name="title_app_permission">ऐप अनुमतियाँ</string>
+    <string name="title_video_details">वीडियो विवरण</string>
+    <string name="title_delete_video">वीडियो हटाएं</string>
+    <string name="title_video_saved">वीडियो सेव हुआ</string>
+    <string name="title_save_video">वीडियो सेव करें</string>
+    <string name="title_no_videos_selected">कोई वीडियो चयनित नहीं</string>
+    <string name="title_confirm_deletion">हटाने की पुष्टि करें</string>
+    <string name="title_no_videos">कोई वीडियो नहीं</string>
+    <string name="title_error">त्रुटि</string>
+    <string name="title_permission_denied">अनुमति अस्वीकृत</string>
+    <string name="title_biometric_prompt">BG वीडियो रिकॉर्डर अनलॉक करें</string>
+    <string name="title_grant_permissions">क्या आपको मदद चाहिए?</string>
+    <string name="title_overlay_permission">ओवरले अनुमति</string>
+    <string name="title_enter_new_password">नया पासवर्ड दर्ज करें</string>
+    <string name="title_confirm_new_password">नया पासवर्ड पुष्टि करें</string>
+    <string name="title_enter_pin_prompt">अक्षम करने के लिए पिन दर्ज करें</string>
+    <string name="title_enter_password">पासवर्ड दर्ज करें</string>
+    <string name="title_enter_current_password">वर्तमान पासवर्ड दर्ज करें</string>
+    <string name="title_set_password">पासवर्ड सेट करें</string>
+    <string name="title_video_settings">वीडियो सेटिंग्स</string>
+    <string name="title_app_settings">ऐप सेटिंग्स</string>
+    <string name="title_security_settings">सुरक्षा सेटिंग्स</string>
+    <string name="title_video_camera">वीडियो कैमरा</string>
+    <string name="title_lock_app">ऐप लॉक करें</string>
+    <string name="title_share_video">वीडियो साझा करें</string>
+    <string name="title_rename_video">वीडियो का नाम बदलें</string>
+    <string name="title_reset_password">पासवर्ड रीसेट करें</string>
+    <string name="title_preview_settings">पूर्वावलोकन सेटिंग्स</string>
+    <string name="title_confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="title_video_saved_to_gallery">वीडियो गैलरी में सेव हुआ</string>
+    <string name="title_failed_to_save_video">वीडियो सेव करने में विफल</string>
+    <string name="title_error_not_enough_space">पर्याप्त स्थान नहीं है</string>
+    <string name="title_video_name">वीडियो का नाम</string>
+    <string name="title_app_feedback">ऐप प्रतिक्रिया</string>
+    <string name="title_select_language">भाषा चुनें</string>
+    <string name="title_select_theme">थीम चुनें</string>
+    <string name="title_select_camera">कैमरा चुनें</string>
+    <string name="title_select_resolution">रेज़ोल्यूशन चुनें</string>
+    <string name="title_select_recording_duration">रिकॉर्डिंग अवधि चुनें</string>
+    <string name="title_select_preview_size">पूर्वावलोकन साइज़ चुनें</string>
+    <string name="title_shortcuts">शॉर्टकट</string>
+    <string name="title_remove_shortcut">शॉर्टकट हटाएं</string>
+    <string name="title_about">परिचय</string>
+    <string name="title_welcome">VigiLens में आपका स्वागत है</string>
+    <string name="title_about_us">हमारे बारे में</string>
+    <string name="title_contact">संपर्क करें</string>
+    <string name="title_github_support">ओपन सोर्स को सहयोग करें!</string>
+    <string name="title_star_reason">हमारे प्रोजेक्ट को स्टार क्यों करें?</string>
+    <string name="title_report_bug">बग रिपोर्ट करें</string>
+    <string name="title_feedback">प्रतिक्रिया</string>
+    <string name="title_help">सहायता</string>
+    <string name="title_thank_you">धन्यवाद!</string>
+
+    <!-- Messages -->
+    <string name="message_help_dialog">सब कुछ सही से काम करे इसके लिए, कृपया जरूरी परमिशन दें। बस स्विच को चालू करें और शर्तों को स्वीकार करें।</string>
+    <string name="message_give_permissions">ऐप को चलाने के लिए हमें कुछ परमिशन की जरूरत है। कृपया नीचे दी गई परमिशन दें:</string>
+    <string name="message_permission_denied">ऐप को चलाने के लिए परमिशन जरूरी हैं। कृपया सेटिंग्स में जाकर इन्हें चालू करें।</string>
+    <string name="message_overlay_permission">कैमरा प्रीव्यू दिखाने के लिए यह परमिशन जरूरी है। कृपया इसे अनुमति दें।</string>
+    <string name="message_video_not_available">माफ़ करें, वीडियो नहीं चल सकता क्योंकि फ़ाइल उपलब्ध नहीं है।</string>
+    <string name="message_no_videos">अभी कोई वीडियो नहीं है।</string>
+    <string name="message_no_videos_selected">कृपया डिलीट करने के लिए कम से कम एक वीडियो चुनें।</string>
+    <string name="message_confirm_deletion">क्या आप चुने गए वीडियो को डिलीट करना चाहते हैं?</string>
+    <string name="message_conform_delete">क्या आप इस वीडियो को डिलीट करना चाहते हैं?</string>
+    <string name="message_watch_ad_support_us">वीडियो को गैलरी में सेव करते समय एक विज्ञापन देखकर हमारी मदद करें। धन्यवाद!</string>
+    <string name="message_video_saved">आपका वीडियो गैलरी में सेव हो गया है!</string>
+    <string name="message_delete_confirmation">क्या आप %1$s को डिलीट करना चाहते हैं?</string>
+    <string name="message_app_tagline">चुपचाप। सुरक्षित। सरल।</string>
+    <string name="message_save_failed">वीडियो सेव करने में कोई समस्या हुई। कृपया फिर से कोशिश करें।</string>
+    <string name="message_permission_granted">अनुमतियां प्रदान की गईं</string>
+    <string name="message_device_admin_explanation">इस सुविधा का उपयोग करने के लिए, ऐप को डिवाइस एडमिन अनुमतियों की आवश्यकता है। कृपया इन्हें अपनी डिवाइस सेटिंग्स में सक्षम करें</string>
+    <string name="message_remove_shortcut">शॉर्टकट स्वचालित रूप से नहीं हटाए जा सकते। कृपया शॉर्टकट को अपनी होम स्क्रीन से मैन्युअल रूप से हटाएं</string>
+    <string name="message_front_record_disabled">सामने की रिकॉर्डिंग उपलब्ध नहीं है</string>
+    <string name="message_back_record_disabled">पीछे की रिकॉर्डिंग उपलब्ध नहीं है</string>
+    <string name="message_quick_record_disabled">त्वरित रिकॉर्डिंग उपलब्ध नहीं है</string>
+    <string name="message_lock_record_disabled">लॉक रिकॉर्डिंग उपलब्ध नहीं है</string>
+    <string name="message_github_support">क्या आपको यह ऐप पसंद है?</string>
+    <string name="message">आपका संदेश यहाँ</string>
+    <string name="message_github_star">GitHub पर हमारे प्रोजेक्ट को स्टार करके अपना समर्थन दिखाएं। यह कुछ सेकंड का काम है लेकिन हमारे लिए बहुत मायने रखता है!</string>
+    <string name="message_star_benefits">• दूसरों को इस ऐप को खोजने में मदद करें\n• मुफ्त और ओपन-सोर्स सॉफ्टवेयर का समर्थन करें\n• हमें और सुविधाएं जोड़ने के लिए प्रेरित करें\n• हमारे बढ़ते समुदाय में शामिल हों</string>
+    <string name="message_about_intro">VigiLens (बैकग्राउंड वीडियो रिकॉर्डर) एक पेशेवर-स्तर का वीडियो रिकॉर्डिंग एप्लिकेशन है जो विवेकपूर्ण दस्तावेजीकरण की जरूरतों के लिए डिज़ाइन किया गया है। हम अपने डिज़ाइन के हर पहलू में गोपनीयता, दक्षता और उपयोगकर्ता अनुभव को प्राथमिकता देते हैं</string>
+    <string name="message_about_privacy">विश्वसनीयता पर ध्यान केंद्रित करते हुए, VigiLens पूरी तरह से ऑफ़लाइन काम करता है और सभी रिकॉर्डिंग को आपके डिवाइस पर स्थानीय रूप से स्टोर करता है। हमने एप्लिकेशन को उच्च-गुणवत्ता वाली HD रिकॉर्डिंग के लिए अनुकूलित किया है जबकि बैटरी उपयोग और सिस्टम संसाधन प्रबंधन को कुशल बनाए रखा है</string>
+    <string name="message_about_features">VigiLens पेशेवर और शैक्षणिक उपयोग के लिए आवश्यक सुविधाएं प्रदान करता है, जिसमें बैकग्राउंड रिकॉर्डिंग क्षमता, सुरक्षित स्टोरेज कार्यान्वयन और अनुकूलन योग्य त्वरित-पहुंच नियंत्रण शामिल हैं। विवेकपूर्ण संचालन सुनिश्चित करने के लिए ऐप स्क्रीन बंद होने पर भी पूर्ण कार्यक्षमता बनाए रखता है</string>
+    <string name="message_about_opensource">एक ओपन-सोर्स प्रोजेक्ट के रूप में, VigiLens समुदाय के योगदान के माध्यम से निरंतर सुधार करते हुए पारदर्शिता बनाए रखता है। हमारी प्रतिबद्धता एक मजबूत, सुरक्षित और गोपनीयता का सम्मान करने वाला रिकॉर्डिंग समाधान प्रदान करने पर केंद्रित रहती है</string>
+    <string name="message_about_team">VigiLens डेवलपमेंट टीम द्वारा विकसित और बनाए रखा गया</string>
+    <string name="message_thank_you">फीडबैक प्रदान करने के लिए समय निकालने के लिए धन्यवाद। आपका इनपुट हमें सभी के लिए ऐप को बेहतर बनाने में मदद करता है</string>
+    <!-- Descriptions -->
+    <string name="description_start_recording">रिकॉर्डिंग शुरू करने के लिए टैप करें</string>
+    <string name="description_switch_to_front_camera">फ्रंट कैमरा पर स्विच करें</string>
+    <string name="description_switch_to_back_camera">पिछले कैमरा पर स्विच करें</string>
+    <string name="description_video_view">वीडियो प्लेयर इंटरफ़ेस</string>
+    <string name="description_overflow_menu">अधिक विकल्प मेनू</string>
+    <string name="description_scrollview">स्क्रॉल करने योग्य सामग्री क्षेत्र</string>
+    <string name="description_stop_recording">रिकॉर्डिंग बंद करने के लिए टैप करें</string>
+    <string name="description_close">बंद करने के लिए टैप करें</string>
+    <string name="description_enable_biometric_authentication">बायोमेट्रिक प्रमाणीकरण चालू या बंद करें</string>
+    <string name="description_enable_password">ऐप लॉक चालू या बंद करें</string>
+    <string name="description_notifications_permission">यह ऐप आपको सूचनाएँ भेजने के लिए अनुमति चाहता है</string>
+    <string name="description_permission_camera">यह ऐप वीडियो रिकॉर्ड करने के लिए आपके कैमरे का उपयोग करना चाहता है</string>
+    <string name="description_permission_microphone">यह ऐप ऑडियो रिकॉर्ड करने के लिए आपके माइक्रोफ़ोन का उपयोग करना चाहता है</string>
+    <string name="description_enable_quick_record_shortcut">त्वरित रिकॉर्ड शॉर्टकट सक्षम करें</string>
+    <string name="description_icon_lock_and_record">लॉक और रिकॉर्ड शॉर्टकट</string>
+    <string name="description_enable_shortcut_front_record">सामने का रिकॉर्ड शॉर्टकट सक्षम करें</string>
+    <string name="description_icon_back_record">पीछे का रिकॉर्ड आइकन</string>
+    <string name="description_enable_shortcut_lock_and_record">लॉक और रिकॉर्ड शॉर्टकट सक्षम करें</string>
+    <string name="description_icon_quick_record">त्वरित रिकॉर्ड आइकन</string>
+    <string name="description_icon_front_record">सामने का रिकॉर्ड आइकन</string>
+    <string name="description_enable_shortcut_back_record">पीछे का रिकॉर्ड शॉर्टकट सक्षम करें</string>
+    <string name="description_quick_record_feature">एक टैप में तुरंत रिकॉर्डिंग शुरू या बंद करें</string>
+    <string name="description_lock_and_record_feature">अपनी होम स्क्रीन पर यह शॉर्टकट जोड़ें और फोन को लॉक करके तुरंत साइलेंट रिकॉर्डिंग शुरू करें। फोन अनलॉक करने पर रिकॉर्डिंग अपने आप बंद हो जाएगी और हाल की ऐप्स में कोई निशान नहीं छोड़ेगी।</string>
+    <string name="description_front_record_feature">सामने के कैमरे से एक टैप में रिकॉर्डिंग शुरू या बंद करें</string>
+    <string name="description_back_record_feature">पिछले कैमरे से एक टैप में रिकॉर्डिंग शुरू या बंद करें</string>
+    <string name="description_widget_lock_and_record">स्क्रीन बंद करें और रिकॉर्डिंग शुरू करें</string>
+    <string name="description_widget_quick_record">एक टैप में त्वरित रिकॉर्डिंग शुरू करें</string>
+    <string name="description_widget_front_record">सामने के कैमरे से रिकॉर्डिंग शुरू करें</string>
+    <string name="description_widget_back_record">पिछले कैमरे से रिकॉर्डिंग शुरू करें</string>
+    <string name="description_github_logo">GitHub लोगो</string>
+    <string name="description_version_info">वर्ज़न जानकारी</string>
+    <string name="description_back_navigation">वापस जाएं</string>
+    <string name="description_app_icon">ऐप आइकन</string>
+    <string name="description_website_icon">वेबसाइट आइकन</string>
+    <string name="description_email_icon">ईमेल आइकन</string>
+    <string name="description_expand_collapse">विस्तार या संक्षेप करें</string>
+    <string name="description_feedback_header">फीडबैक हेडर इमेज</string>
+
+    <!-- Toasts -->
+    <string name="toast_password_disabled_successfully">आपका पासवर्ड अक्षम कर दिया गया है।</string>
+    <string name="toast_incorrect_password">गलत पासवर्ड। कृपया फिर से प्रयास करें।</string>
+    <string name="toast_authentication_failed">प्रमाणीकरण विफल। कृपया फिर से प्रयास करें।</string>
+    <string name="toast_password_reset_success">पासवर्ड सफलतापूर्वक रीसेट हो गया है।</string>
+    <string name="toast_passwords_do_not_match">पासवर्ड मेल नहीं खाते। कृपया फिर से प्रयास करें।</string>
+    <string name="toast_password_set_success">पासवर्ड सफलतापूर्वक सेट हो गया है।</string>
+    <string name="toast_preference_saved">आपकी प्राथमिकताएँ सेव हो गई हैं।</string>
+    <string name="toast_permissions_required">ऐप के सही काम करने के लिए अनुमतियाँ चाहिए। कृपया आवश्यक अनुमतियाँ प्रदान करें।</string>
+    <string name="toast_no_app_to_open_video">इस वीडियो को खोलने के लिए कोई एप्लिकेशन उपलब्ध नहीं है।</string>
+    <string name="toast_video_rename_success">वीडियो का नाम "%1$s" कर दिया गया है।</string>
+    <string name="toast_set_app_lock_first">ऐप लॉक सेट नहीं है। कृपया पहले इसे सक्षम करें।</string>
+    <string name="toast_video_rename_failed">वीडियो का नाम बदलने में विफल।</string>
+    <string name="toast_video_rename_exists">"%1$s" नाम की फ़ाइल पहले से मौजूद है।</string>
+    <string name="toast_video_deleted_success">वीडियो सफलतापूर्वक हटाया गया।</string>
+    <string name="toast_failed_to_delete_video">"%1$s" को हटाने में विफल।</string>
+    <string name="toast_name_empty_error">नाम खाली नहीं हो सकता। कृपया एक मान्य नाम दर्ज करें।</string>
+    <string name="toast_no_email_clients">कोई ईमेल एप्लिकेशन इंस्टॉल नहीं है।</string>
+    <string name="toast_ad_not_available">अभी कोई विज्ञापन उपलब्ध नहीं हैं।</string>
+    <string name="toast_cannot_switch_camera_while_recording">रिकॉर्डिंग के दौरान कैमरा स्विच नहीं कर सकते।</string>
+    <string name="toast_video_delete_failed">वीडियो हटाने में विफल।</string>
+    <string name="toast_device_admin_permission_required">इस सुविधा को चालू करने के लिए डिवाइस एडमिन की अनुमति आवश्यक है। कृपया सेटिंग्स में इसे दें।</string>
+    <string name="toast_shortcut_added">होम स्क्रीन पर शॉर्टकट जोड़ा गया।</string>
+    <string name="toast_shortcut_not_supported">इस डिवाइस पर पिन किए गए शॉर्टकट समर्थित नहीं हैं।</string>
+    <string name="toast_shortcut_add_failed">शॉर्टकट जोड़ना विफल रहा</string>
+    <string name="toast_device_admin_unavailable">डिवाइस पॉलिसी मैनेजर उपलब्ध नहीं है।</string>
+    <string name="toast_account_locked">खाता लॉक हो गया है। %d सेकंड में पुनः प्रयास करें</string>
+
+    <!-- Buttons -->
+    <string name="btn_ok">ठीक है</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_grant_permission">अनुमति दें</string>
+    <string name="btn_rename">नाम बदलें</string>
+    <string name="btn_continue">जारी रखें</string>
+    <string name="btn_setting">सेटिंग्स</string>
+    <string name="btn_use_password">पासवर्ड का उपयोग करें</string>
+    <string name="btn_confirm">पुष्टि करें</string>
+    <string name="btn_star_github">GitHub पर स्टार करें ⭐</string>
+    <string name="btn_remind_later">बाद में याद दिलाएं</string>
+    <string name="btn_view_source">सोर्स कोड देखें</string>
+    <string name="btn_submit_bug">बग रिपोर्ट करें</string>
+    <string name="btn_submit_feedback">फीडबैक भेजें</string>
+
+
+    <!-- Actions -->
+    <string name="action_delete">हटाएं</string>
+    <string name="action_select_all">सभी चुनें</string>
+    <string name="action_deselect_all">सभी चयन हटाएं</string>
+    <string name="action_details">विवरण</string>
+    <string name="action_rename">नाम बदलें</string>
+    <string name="action_save_to_gallery">गैलरी में सेव करें</string>
+    <string name="action_open_with">इसके साथ खोलें</string>
+    <string name="action_share">साझा करें</string>
+    <string name="action_help">मदद</string>
+
+
+    <!-- Prefs -->
+    <string name="prefs_main">मुख्य सेटिंग्स</string>
+    <string name="prefs_lock">लॉक रिकॉर्ड</string>
+    <string name="prefs_front">सामने का रिकॉर्ड</string>
+    <string name="prefs_back">पीछे का रिकॉर्ड</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_new_name">नया वीडियो नाम दर्ज करें</string>
+    <string name="hint_duration_minutes">मिनटों में अवधि दर्ज करें</string>
+    <string name="hint_bug_description">बग का वर्णन करें</string>
+    <string name="hint_steps_to_reproduce">दोहराने के लिए कदम</string>
+    <string name="hint_feedback">आपकी प्रतिक्रिया</string>
+    <string name="hint_suggestions">सुधार के लिए सुझाव</string>
+    <string name="hint_screenshot">समस्या का स्क्रीनशॉट लें और संलग्न करने के लिए वापस आएं</string>
+
+    <!-- Error Messages -->
+    <string name="error_url_open">URL नहीं खोल सका</string>
+    <string name="error_sending_email">ईमेल नहीं भेज सका</string>
+    <string name="error_invalid_number">अमान्य संख्या</string>
+    <string name="error_description_required">कृपया बग का विवरण प्रदान करें</string>
+    <string name="error_steps_required">कृपया दोहराने के लिए कदम प्रदान करें</string>
+    <string name="error_rating_required">कृपया रेटिंग प्रदान करें</string>
+    <string name="error_feedback_required">कृपया अपने अनुभव के बारे में बताएं</string>
+
+    <!-- Others -->
+    <string name="email_feedback_prompt">कृपया नीचे अपनी प्रतिक्रिया दें:\n</string>
+    <string name="terms_privacy_agreement">मैं ऐप की उपयोग शर्तों और गोपनीयता नीति से सहमत हूं।</string>
+    <string name="email_subject">सहायता अनुरोध</string>
+    <string name="email_client_chooser">ईमेल क्लाइंट चुनें</string>
+
+    <!-- Input Field Hints -->
+    <string name="helper_feedback">ऐप में क्या पसंद आया या नहीं आया, साझा करें</string>
+    <string name="helper_suggestions">वैकल्पिक: ऐप को बेहतर बनाने के लिए अपने विचार साझा करें</string>
+    <string name="helper_bug_description">कृपया बग का विस्तृत विवरण दें</string>
+    <string name="helper_steps_to_reproduce">इस बग को दोहराने के लिए कदमों की सूची बनाएं</string>
+
+    <!-- Rating Feedback Messages -->
+    <string name="rating_very_dissatisfied">बहुत असंतुष्ट</string>
+    <string name="rating_dissatisfied">असंतुष्ट</string>
+    <string name="rating_neutral">तटस्थ</string>
+    <string name="rating_satisfied">संतुष्ट</string>
+    <string name="rating_very_satisfied">बहुत संतुष्ट</string>
+
+    <!-- newly added -->
+    <string name="choose_email_client">ईमेल क्लाइंट चुनें</string>
+    <string name="no_email_apps_found">कोई ईमेल ऐप नहीं मिला</string>
+    <string name="bug_report_info">किसी भी समस्या की रिपोर्ट करके हमें सुधार में मदद करें। कृपया जितना संभव हो उतना विवरण प्रदान करें।</string>
+    <string name="attachments">अटैचमेंट (वैकल्पिक)</string>
+    <string name="attach_screenshot">स्क्रीनशॉट संलग्न करें</string>
+    <string name="take_screenshot">स्क्रीनशॉट लें</string>
+    <string name="choose_from_gallery">गैलरी से चुनें</string>
+    <string name="screenshot_attached">स्क्रीनशॉट संलग्न</string>
+    <string name="screenshot_attached_success">स्क्रीनशॉट सफलतापूर्वक संलग्न किया गया</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="rate_your_experience">अपने अनुभव को कैसे रेट करेंगे?</string>
+    <string name="new_badge">नया</string>
+
+
+</resources>

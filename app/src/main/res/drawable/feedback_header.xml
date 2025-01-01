@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="800dp"
+    android:height="400dp"
+    android:viewportWidth="800"
+    android:viewportHeight="400">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M0,0h800v400h-800z"/>
+
+    <!-- Grid Pattern using groups of lines -->
+    <group>
+        <path
+            android:strokeColor="#33FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M0,0 L800,0 M0,20 L800,20 M0,40 L800,40 M0,60 L800,60 M0,80 L800,80
+                           M0,100 L800,100 M0,120 L800,120 M0,140 L800,140 M0,160 L800,160
+                           M0,180 L800,180 M0,200 L800,200 M0,220 L800,220 M0,240 L800,240
+                           M0,260 L800,260 M0,280 L800,280 M0,300 L800,300 M0,320 L800,320
+                           M0,340 L800,340 M0,360 L800,360 M0,380 L800,380 M0,400 L800,400"/>
+        <path
+            android:strokeColor="#33FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M0,0 L0,400 M20,0 L20,400 M40,0 L40,400 M60,0 L60,400 M80,0 L80,400
+                           M100,0 L100,400 M120,0 L120,400 M140,0 L140,400 M160,0 L160,400
+                           M180,0 L180,400 M200,0 L200,400 M220,0 L220,400 M240,0 L240,400
+                           M260,0 L260,400 M280,0 L280,400 M300,0 L300,400 M320,0 L320,400
+                           M340,0 L340,400 M360,0 L360,400 M380,0 L380,400 M400,0 L400,400"/>
+    </group>
+
+    <!-- Central Elements -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M280,200a120,120 0 1,0 240,0a120,120 0 1,0 -240,0"/>
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M310,200a90,90 0 1,0 180,0a90,90 0 1,0 -180,0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M340,200a60,60 0 1,0 120,0a60,60 0 1,0 -120,0"/>
+
+    <!-- Feedback Icons -->
+    <!-- Star -->
+    <path
+        android:fillColor="#E6FFFFFF"
+        android:pathData="M320,180l8,-24l22,0l-18,-16l8,-24l-20,16l-20,-16l8,24l-18,16l22,0z"/>
+
+    <!-- Chat Bubble -->
+    <path
+        android:fillColor="#E6FFFFFF"
+        android:pathData="M440,180c40,0 40,40 0,40l-20,0l-10,15l-10,-15l-20,0c-40,0 -40,-40 0,-40z"/>
+
+    <!-- Thumbs Up -->
+    <path
+        android:fillColor="#E6FFFFFF"
+        android:pathData="M460,240l20,0l0,40l-20,0l0,-40 M485,245c0,0 10,0 10,10l0,10c0,10 -10,10 -10,10l-20,0l0,-30l10,-20c0,0 10,0 10,10z"/>
+
+    <!-- Decorative Dots -->
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M100,50a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"/>
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M700,350a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"/>
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M200,300a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+    <path
+        android:fillColor="#4DFFFFFF"
+        android:pathData="M600,100a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"/>
+</vector>

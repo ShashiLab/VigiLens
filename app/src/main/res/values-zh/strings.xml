@@ -1,0 +1,308 @@
+<resources>
+    <!-- Labels -->
+    <string name="label_duration">时长</string>
+    <string name="label_date">日期</string>
+    <string name="label_name">名称</string>
+    <string name="label_path">路径</string>
+    <string name="label_size">大小</string>
+    <string name="label_no_videos_found">未找到视频</string>
+    <string name="label_title">标题</string>
+    <string name="label_video_size">大小</string>
+    <string name="label_video_date">日期</string>
+    <string name="label_back_camera">后置摄像头</string>
+    <string name="label_timer">00:00</string>
+    <string name="label_unlimited">无限制</string>
+    <string name="label_system_default">系统默认</string>
+    <string name="label_front_camera">前置摄像头</string>
+    <string name="label_last_modified">最后修改</string>
+    <string name="label_camera_permission">相机权限</string>
+    <string name="label_audio_permission">录音权限</string>
+    <string name="label_notifications_permission">通知</string>
+    <string name="label_app_theme">应用主题</string>
+    <string name="label_video_quality">视频质量</string>
+    <string name="label_recording_duration">录制时长</string>
+    <string name="label_show_preview">显示预览</string>
+    <string name="label_biometric_authentication">生物识别认证</string>
+    <string name="label_language">语言</string>
+    <string name="label_preview_size">预览大小</string>
+    <string name="label_minutes">分钟</string>
+    <string name="label_shortcut_quick_record">快速录制</string>
+    <string name="label_screen_off">关闭屏幕</string>
+    <string name="label_quick_record">快速录制</string>
+    <string name="label_shortcut_lock_and_record">锁定并录制</string>
+    <string name="label_back_record">后置录制</string>
+    <string name="label_front_record">前置录制</string>
+    <string name="label_front_camera_long">开始前置摄像头录制</string>
+    <string name="label_back_camera_long">开始后置摄像头录制</string>
+    <string name="label_quick_record_long">快速开始录制</string>
+    <string name="label_lock_record_long">锁屏状态下录制</string>
+    <string name="label_shortcuts">快捷方式</string>
+    <string name="label_version">版本 %s</string>
+    <string name="label_version_unknown">未知版本</string>
+    <string name="label_website">网站</string>
+    <string name="label_email">邮箱</string>
+    <string name="label_copyright">© 2024 版权所有</string>
+    <string name="label_license">基于 GNU GPL v3.0 许可</string>
+    <string name="label_watermark">Shashi.app</string>
+    <string name="label_rate_app">给应用评分</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_recording">正在录制视频</string>
+    <string name="notification_title_recording_stopped">录制已停止</string>
+    <string name="notification_text_recording_in_progress">正在录制中…</string>
+    <string name="notification_title_saving_video">正在保存视频</string>
+    <string name="notification_text_saving_video">视频正在保存到图库…</string>
+    <string name="notification_saving_video_progress">视频正在保存到图库… %d%%</string>
+    <string name="notification_title_save_completed">视频保存完成</string>
+    <string name="notification_title_save_failed">视频保存失败</string>
+    <string name="notification_action_stop">停止</string>
+    <string name="notification_text_recording_stopped_low_storage">由于存储空间不足，录制已停止。</string>
+    <string name="notification_text_error_permission_denied">权限被拒绝</string>
+    <string name="notification_text_error_file_not_found">文件未找到</string>
+    <string name="notification_text_error_unknown">发生未知错误</string>
+
+    <!-- Titles -->
+    <string name="title_record">录制视频</string>
+    <string name="title_videos">视频库</string>
+    <string name="title_settings">设置</string>
+    <string name="title_privacy_policy">隐私政策</string>
+    <string name="title_terms_of_use">使用条款</string>
+    <string name="title_rate_app">评价应用</string>
+    <string name="title_save_failed">保存失败</string>
+    <string name="title_app_permission">应用权限</string>
+    <string name="title_video_details">视频详情</string>
+    <string name="title_delete_video">删除视频</string>
+    <string name="title_video_saved">视频已保存</string>
+    <string name="title_save_video">保存视频</string>
+    <string name="title_no_videos_selected">未选择视频</string>
+    <string name="title_confirm_deletion">确认删除</string>
+    <string name="title_no_videos">没有视频</string>
+    <string name="title_error">错误</string>
+    <string name="title_permission_denied">权限被拒绝</string>
+    <string name="title_biometric_prompt">解锁BG视频录制器</string>
+    <string name="title_grant_permissions">需要帮助？</string>
+    <string name="title_overlay_permission">悬浮窗权限</string>
+    <string name="title_enter_new_password">输入新密码</string>
+    <string name="title_confirm_new_password">确认新密码</string>
+    <string name="title_enter_pin_prompt">输入PIN码以禁用</string>
+    <string name="title_enter_password">输入密码</string>
+    <string name="title_enter_current_password">输入当前密码</string>
+    <string name="title_set_password">设置密码</string>
+    <string name="title_video_settings">视频设置</string>
+    <string name="title_app_settings">应用设置</string>
+    <string name="title_security_settings">安全设置</string>
+    <string name="title_video_camera">视频摄像头</string>
+    <string name="title_lock_app">锁定应用</string>
+    <string name="title_share_video">分享视频</string>
+    <string name="title_rename_video">重命名视频</string>
+    <string name="title_reset_password">重置密码</string>
+    <string name="title_preview_settings">预览设置</string>
+    <string name="title_confirm_password">确认密码</string>
+    <string name="title_video_saved_to_gallery">视频已保存到图库</string>
+    <string name="title_failed_to_save_video">保存视频失败</string>
+    <string name="title_error_not_enough_space">空间不足</string>
+    <string name="title_video_name">视频名称</string>
+    <string name="title_app_feedback">应用反馈</string>
+    <string name="title_select_language">选择语言</string>
+    <string name="title_select_theme">选择主题</string>
+    <string name="title_select_camera">选择摄像头</string>
+    <string name="title_select_resolution">选择分辨率</string>
+    <string name="title_select_recording_duration">选择录制时长</string>
+    <string name="title_select_preview_size">选择预览大小</string>
+    <string name="title_shortcuts">快捷方式</string>
+    <string name="title_remove_shortcut">删除快捷方式</string>
+    <string name="title_about">关于</string>
+    <string name="title_welcome">欢迎使用 VigiLens</string>
+    <string name="title_about_us">关于我们</string>
+    <string name="title_contact">联系我们</string>
+    <string name="title_github_support">支持开源！</string>
+    <string name="title_star_reason">为什么给项目打星？</string>
+    <string name="title_report_bug">报告问题</string>
+    <string name="title_feedback">反馈</string>
+    <string name="title_help">帮助</string>
+    <string name="title_thank_you">谢谢！</string>
+
+    <!-- Messages -->
+    <string name="message_help_dialog">为了让一切顺利，请授予必要的权限。只需启用开关并接受条款即可继续。</string>
+    <string name="message">在此输入您的消息</string>
+    <string name="message_give_permissions">我们需要一些权限以确保一切顺利运行。请在下方授予它们：</string>
+    <string name="message_permission_denied">应用需要权限才能运行。请在设置中启用它们以继续。</string>
+    <string name="message_overlay_permission">我们需要此权限以在录制时显示摄像头预览。请允许以使用预览功能。</string>
+    <string name="message_video_not_available">抱歉，无法播放视频，因为文件不可用。</string>
+    <string name="message_no_videos">目前没有可用的视频。</string>
+    <string name="message_no_videos_selected">请至少选择一个要删除的视频。</string>
+    <string name="message_confirm_deletion">您确定要删除选定的视频吗？</string>
+    <string name="message_conform_delete">您确定要删除此视频吗？</string>
+    <string name="message_watch_ad_support_us">在我们将您的视频保存到图库时，观看广告支持我们。谢谢！</string>
+    <string name="message_video_saved">您的视频已成功保存到图库！</string>
+    <string name="message_delete_confirmation">您确定要删除 %1$s 吗？</string>
+    <string name="message_app_tagline">悄悄录制视频</string>
+    <string name="message_save_failed">抱歉，保存您的视频时出了点问题。请再试一次。</string>
+    <string name="message_permission_granted">已授予权限</string>
+    <string name="message_device_admin_explanation">要使用此功能，应用需要设备管理员权限。请在设备设置中启用它们</string>
+    <string name="message_remove_shortcut">快捷方式无法自动删除。请手动从主屏幕删除快捷方式</string>
+    <string name="message_front_record_disabled">前置录制不可用</string>
+    <string name="message_back_record_disabled">后置录制不可用</string>
+    <string name="message_quick_record_disabled">快速录制不可用</string>
+    <string name="message_lock_record_disabled">锁定录制不可用</string>
+    <string name="message_github_support">喜欢这个应用吗？</string>
+    <string name="message_github_star">在GitHub上为我们的项目点亮星标以表示支持。这只需几秒钟，但对我们意义重大！</string>
+    <string name="message_star_benefits">• 帮助他人发现这个应用\n• 支持自由和开源软件\n• 激励我们添加更多功能\n• 加入我们不断成长的社区</string>
+    <string name="message_about_intro">VigiLens（后台视频录制器）是一款专业级视频录制应用，专为谨慎记录需求而设计。我们在设计的各个方面都优先考虑隐私、效率和用户体验</string>
+    <string name="message_about_privacy">专注于可靠性，VigiLens完全离线运行，并将所有录制内容本地存储在您的设备上。我们优化了应用程序，在保持高效电池使用和系统资源管理的同时实现高质量HD录制</string>
+    <string name="message_about_features">VigiLens为专业和学术用途提供基本功能，包括后台录制能力、安全存储实现和可自定义的快速访问控制。应用程序即使在屏幕关闭时也保持完整功能，以确保谨慎操作</string>
+    <string name="message_about_opensource">作为开源项目，VigiLens在通过社区贡献不断改进的同时保持透明度。我们的承诺始终专注于提供稳健、安全且尊重隐私的录制解决方案</string>
+    <string name="message_about_team">由VigiLens开发团队开发和维护</string>
+    <string name="message_thank_you">感谢您抽出时间提供反馈。您的意见帮助我们为所有用户改进应用</string>
+
+    <!-- Descriptions -->
+    <string name="description_start_recording">点击开始录制</string>
+    <string name="description_switch_to_front_camera">切换到前置摄像头</string>
+    <string name="description_switch_to_back_camera">切换到后置摄像头</string>
+    <string name="description_video_view">视频播放器界面</string>
+    <string name="description_overflow_menu">更多选项菜单</string>
+    <string name="description_scrollview">可滚动的内容区域</string>
+    <string name="description_stop_recording">点击停止录制</string>
+    <string name="description_close">点击关闭</string>
+    <string name="description_enable_biometric_authentication">启用或禁用生物识别认证</string>
+    <string name="description_enable_password">启用或禁用应用锁定</string>
+    <string name="description_notifications_permission">此应用需要权限向您发送通知</string>
+    <string name="description_permission_camera">此应用需要访问您的相机以录制视频</string>
+    <string name="description_permission_microphone">此应用需要访问您的麦克风以录制音频</string>
+    <string name="description_enable_quick_record_shortcut">启用快速录制快捷方式</string>
+    <string name="description_icon_lock_and_record">锁定并录制快捷方式</string>
+    <string name="description_enable_shortcut_front_record">启用前置摄像头录制快捷方式</string>
+    <string name="description_icon_back_record">后置摄像头录制图标</string>
+    <string name="description_enable_shortcut_lock_and_record">启用锁定并录制快捷方式</string>
+    <string name="description_icon_quick_record">快速录制图标</string>
+    <string name="description_icon_front_record">前置摄像头录制图标</string>
+    <string name="description_enable_shortcut_back_record">启用后置摄像头录制快捷方式</string>
+    <string name="description_quick_record_feature">一键开始或停止录制</string>
+    <string name="description_lock_and_record_feature">将此快捷方式添加到主屏幕，即可锁定手机并立即开始静默录制。解锁设备将自动停止录制，不会在最近使用的应用中留下痕迹。</string>
+    <string name="description_front_record_feature">一键开始或停止前置摄像头录制</string>
+    <string name="description_back_record_feature">一键开始或停止后置摄像头录制</string>
+    <string name="description_widget_lock_and_record">关闭屏幕并开始录制</string>
+    <string name="description_widget_quick_record">一键开始快速录制</string>
+    <string name="description_widget_front_record">开始前置摄像头录制</string>
+    <string name="description_widget_back_record">开始后置摄像头录制</string>
+    <string name="description_github_logo">GitHub图标</string>
+    <string name="description_version_info">版本信息</string>
+    <string name="description_back_navigation">返回</string>
+    <string name="description_app_icon">应用图标</string>
+    <string name="description_website_icon">网站图标</string>
+    <string name="description_email_icon">邮件图标</string>
+    <string name="description_expand_collapse">展开或收起</string>
+    <string name="description_feedback_header">反馈标题图片</string>
+
+    <!-- Toasts -->
+    <string name="toast_password_disabled_successfully">您的密码已被禁用。</string>
+    <string name="toast_incorrect_password">密码错误。请再试一次。</string>
+    <string name="toast_authentication_failed">认证失败。请再试一次。</string>
+    <string name="toast_password_reset_success">密码已成功重置。</string>
+    <string name="toast_passwords_do_not_match">密码不匹配。请再试一次。</string>
+    <string name="toast_password_set_success">密码已成功设置。</string>
+    <string name="toast_preference_saved">您的偏好设置已保存。</string>
+    <string name="toast_permissions_required">需要权限以使应用正常运行。请授予必要的权限。</string>
+    <string name="toast_no_app_to_open_video">没有可用的应用程序打开此视频。</string>
+    <string name="toast_video_rename_success">视频已重命名为“%1$s”。</string>
+    <string name="toast_set_app_lock_first">未设置应用锁定。请先启用它。</string>
+    <string name="toast_video_rename_failed">重命名视频失败。</string>
+    <string name="toast_video_rename_exists">名为“%1$s”的文件已存在。</string>
+    <string name="toast_video_deleted_success">视频已成功删除。</string>
+    <string name="toast_failed_to_delete_video">无法删除“%1$s”。</string>
+    <string name="toast_name_empty_error">名称不能为空。请输入有效的名称。</string>
+    <string name="toast_no_email_clients">未安装电子邮件应用。</string>
+    <string name="toast_ad_not_available">目前没有可用的广告。</string>
+    <string name="toast_cannot_switch_camera_while_recording">录制过程中无法切换摄像头。</string>
+    <string name="toast_video_delete_failed">无法删除视频。</string>
+    <string name="toast_device_admin_permission_required">需要设备管理员权限才能启用此功能。请在设置中授予权限。</string>
+    <string name="toast_shortcut_added">快捷方式已添加到主屏幕。</string>
+    <string name="toast_shortcut_not_supported">此设备不支持固定快捷方式。</string>
+    <string name="toast_shortcut_add_failed">添加快捷方式失败</string>
+    <string name="toast_device_admin_unavailable">设备策略管理器不可用。</string>
+    <string name="toast_account_locked">账号已锁定。请在 %d 秒后重试</string>
+
+    <!-- Buttons -->
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_grant_permission">授予权限</string>
+    <string name="btn_rename">重命名</string>
+    <string name="btn_continue">继续</string>
+    <string name="btn_setting">设置</string>
+    <string name="btn_use_password">使用密码</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_star_github">在 GitHub 上点星 ⭐</string>
+    <string name="btn_remind_later">稍后提醒</string>
+    <string name="btn_view_source">查看源代码</string>
+    <string name="btn_submit_bug">提交错误报告</string>
+    <string name="btn_submit_feedback">提交反馈</string>
+
+    <!-- Actions -->
+    <string name="action_delete">删除</string>
+    <string name="action_select_all">全选</string>
+    <string name="action_deselect_all">取消全选</string>
+    <string name="action_details">详情</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_save_to_gallery">保存到图库</string>
+    <string name="action_open_with">打开方式</string>
+    <string name="action_share">分享</string>
+    <string name="action_help">帮助</string>
+
+    <!-- Prefs -->
+    <string name="prefs_main">主要设置</string>
+    <string name="prefs_lock">锁定录制</string>
+    <string name="prefs_front">前置录制</string>
+    <string name="prefs_back">后置录制</string>
+
+    <!-- Hints -->
+    <string name="hint_enter_new_name">输入视频名称</string>
+    <string name="hint_duration_minutes">输入时长（分钟）</string>
+    <string name="hint_bug_description">描述问题</string>
+    <string name="hint_steps_to_reproduce">重现步骤</string>
+    <string name="hint_feedback">您的反馈</string>
+    <string name="hint_suggestions">改进建议</string>
+    <string name="hint_screenshot">请截图问题并返回附加</string>
+
+    <!-- Error Messages -->
+    <string name="error_url_open">无法打开链接</string>
+    <string name="error_sending_email">无法发送邮件</string>
+    <string name="error_invalid_number">无效数字</string>
+    <string name="error_description_required">请描述问题</string>
+    <string name="error_steps_required">请提供重现步骤</string>
+    <string name="error_rating_required">请给出评分</string>
+    <string name="error_feedback_required">请告诉我们您的使用体验</string>
+
+    <!-- Others -->
+    <string name="email_feedback_prompt">请在下方提供您的反馈：\n</string>
+    <string name="terms_privacy_agreement">我同意应用的使用条款和隐私政策。</string>
+    <string name="email_subject">技术支持</string>
+    <string name="email_client_chooser">选择邮件应用</string>
+
+    <!-- Input Field Hints -->
+    <string name="helper_feedback">分享您对应用的喜欢和不喜欢之处</string>
+    <string name="helper_suggestions">选填：分享您的改进建议</string>
+    <string name="helper_bug_description">请详细描述问题</string>
+    <string name="helper_steps_to_reproduce">列出重现这个问题的步骤</string>
+
+    <!-- Rating Feedback Messages -->
+    <string name="rating_very_dissatisfied">非常不满意</string>
+    <string name="rating_dissatisfied">不满意</string>
+    <string name="rating_neutral">一般</string>
+    <string name="rating_satisfied">满意</string>
+    <string name="rating_very_satisfied">非常满意</string>
+
+    <!-- newly added -->
+    <string name="choose_email_client">选择邮件应用</string>
+    <string name="no_email_apps_found">未找到邮件应用</string>
+    <string name="bug_report_info">请帮助我们改进应用，报告您遇到的任何问题。请尽可能提供详细信息。</string>
+    <string name="attachments">附件（选填）</string>
+    <string name="attach_screenshot">添加截图</string>
+    <string name="take_screenshot">截取屏幕</string>
+    <string name="choose_from_gallery">从相册选择</string>
+    <string name="screenshot_attached">已添加截图</string>
+    <string name="screenshot_attached_success">截图添加成功</string>
+    <string name="retry">重试</string>
+    <string name="rate_your_experience">您如何评价使用体验？</string>
+    <string name="new_badge">新</string>
+
+</resources>

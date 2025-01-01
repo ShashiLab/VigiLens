@@ -1,0 +1,86 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_padding">16dp</dimen>
+
+
+
+    <dimen name="size_xsmall">4dp</dimen>
+    <dimen name="size_small">8dp</dimen>
+    <dimen name="size_medium">16dp</dimen>
+    <dimen name="size_large">24dp</dimen>
+    <dimen name="size_xlarge">32dp</dimen>
+
+
+    <dimen name="padding_none">0dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+
+
+    <dimen name="margin_none">0dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+
+
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_default">4dp</dimen>
+    <dimen name="elevation_high">8dp</dimen>
+    <dimen name="elevation_card">4dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+
+
+
+
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_padding_vertical">12dp</dimen>
+    <dimen name="button_padding_horizontal">16dp</dimen>
+
+
+    <dimen name="card_corner_radius_small">8dp</dimen>
+    <dimen name="card_corner_radius_medium">16dp</dimen>
+    <dimen name="card_corner_radius_large">24dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+
+
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+    <dimen name="bottom_nav_margin">16dp</dimen>
+
+
+    <dimen name="icon_size_xsmall">16dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_xlarge">64dp</dimen>
+    <dimen name="video_thumbnail_size">80dp</dimen>
+    <dimen name="rate_app_emoji_size">120dp</dimen>
+
+
+
+    <dimen name="time_display_height">200dp</dimen>
+    <dimen name="time_display_width">200dp</dimen>
+    <dimen name="time_display_text_size">36sp</dimen>
+
+
+</resources>

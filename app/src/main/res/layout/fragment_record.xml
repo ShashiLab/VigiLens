@@ -1,0 +1,131 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:padding="@dimen/padding_none">
+
+
+
+    <TextView
+        android:id="@+id/time_display"
+        android:layout_width="@dimen/time_display_width"
+        android:layout_height="@dimen/time_display_height"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:background="@drawable/time_display_bg"
+        android:gravity="center"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/label_timer"
+        android:textSize="@dimen/time_display_text_size"
+        android:textColor="?attr/colorOnBackground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/show_preview_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_show_preview"
+        android:textAppearance="?attr/textAppearanceBodyLarge"
+        android:layout_marginTop="@dimen/margin_large"
+        app:layout_constraintTop_toBottomOf="@id/time_display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time_display" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_xlarge"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/switch_to_front"
+            style="?attr/materialIconButtonFilledTonalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/description_switch_to_front_camera"
+            android:onClick="switchToCamera"
+            app:icon="@drawable/ic_back_camera"
+            app:iconSize="@dimen/icon_size_medium" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/label_front_camera"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_xlarge"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/switch_to_back"
+            style="?attr/materialIconButtonFilledTonalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/description_switch_to_back_camera"
+            android:onClick="switchToCamera"
+            app:icon="@drawable/ic_front_camera"
+            app:iconSize="@dimen/icon_size_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_back_camera"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/start_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="@drawable/round_button"
+        android:contentDescription="@string/description_start_recording"
+        android:scaleType="centerInside"
+        android:src="@drawable/start_recording_button"
+        app:layout_constraintBottom_toTopOf="@+id/ad_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
