@@ -21,8 +21,6 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
 
     <application
         android:name=".VigiLens"
@@ -197,6 +195,9 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
+        <meta-data
+            android:name="overlay_usage"
+            android:value="camera_preview" />
 
         <property
             android:name="android.adservices.AD_SERVICES_CONFIG"

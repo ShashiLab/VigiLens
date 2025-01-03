@@ -3,8 +3,8 @@
     <string name="app_name" translatable="false">VigiLens</string>
 
     <!-- Ad units -->
-    <string name="rewarded_ad_for_saving_video_to_gallery" translatable="false">ca-app-pub-3940256099942544/5224354917</string> <!-- Rewarded Ad (Test ID) -->
-    <string name="app_open_ad" translatable="false">ca-app-pub-3940256099942544/9257395921</string> <!-- App Open Ad (Test ID) -->
+    <string name="rewarded_ad_for_saving_video_to_gallery" translatable="false">ca-app-pub-1455311614075350/8959798122</string>
+    <string name="app_open_ad" translatable="false">ca-app-pub-1455311614075350/1791754540</string>
 
 
     <!-- Keypad -->
